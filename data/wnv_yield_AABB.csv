@@ -1,0 +1,1677 @@
+donation_id,collection_date,zip5,pool_size,signal_to_cutoff,triggered,interpretation
+,,,,,,
+W115117178477,7/14/2017,35023,16,25.34,No,Confirmed Positive
+W204117865425,7/24/2017,35124,1,32.27,Yes,Confirmed Positive
+W115117180536,7/29/2017,35180,1,35.39,Yes,Confirmed Positive
+W115117203122,8/1/2017,35758,16,29.62,No,Confirmed Positive
+W115117203932,8/3/2017,35904,1,27.07,Yes,Confirmed Positive
+W115117208605,8/4/2017,36201,1,1.14,Yes,False Positive
+W115117192277,8/14/2017,36360,16,28.15,No,Confirmed Positive
+W115117205532,8/30/2017,35950,16,30.39,No,Confirmed Positive
+W204117324788,9/2/2017,35803,1,35.64,Yes,Confirmed Positive
+W115117207016,9/2/2017,35071,16,33.89,No,Confirmed Positive
+W204117335103,9/8/2017,35209,1,3.72,Yes,Confirmed Positive
+W115117173445,9/8/2017,35950,1,1.23,No,False Positive
+W115117218384,9/8/2017,36854,1,1.1,No,False Positive
+W115117253150,9/12/2017,35173,1,32.47,Yes,Confirmed Positive
+W115117237808,9/13/2017,36064,16,29.86,No,Confirmed Positive
+W115117069723,9/15/2017,36272,1,30.52,Yes,Confirmed Positive
+W204117336905,9/15/2017,35803,1,23.36,Yes,Confirmed Positive
+W204117336188,9/28/2017,35555,16,26.59,No,Confirmed Positive
+W204117346569,10/11/2017,35401,1,34.44,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W204117355739,10/24/2017,36305,1,1.2,Yes,False Positive
+W204117355723,10/24/2017,36081,1,1.09,Yes,False Positive
+W115177288290,10/25/2017,35014,16,32.14,No,Confirmed Positive
+W115117288291,10/25/2017,35014,16,32.1,No,Confirmed Positive
+W115117272167,11/6/2017,36695,16,33.79,No,Confirmed Positive
+W204118420449,7/23/2018,36604,16,34.91,No,Confirmed Positive
+W115118136632,7/26/2018,36608,1,4.86,Yes,Confirmed Positive
+W204118426282,8/23/2018,36605,1,32.78,Yes,Confirmed Positive
+W204118440522,10/17/2018,36116,16,33.56,No,Confirmed Positive
+W204118436241 ,10/18/2018,36551,16,28.81,No,Confirmed Positive
+W115118177293,10/25/2018,36321,16,30.85,No,Confirmed Positive
+ W115119116173,8/8/2019,36603,16,34.59,No,Confirmed Positive
+,,,,,,
+W066519251160,6/5/2019,99709,1,39.96,No,False Positive
+W066519651921,8/31/2019,99505,1,null,No,Confirmed Positive
+,,,,,,
+C052018157406007,8/9/2018,T0K 0V0,6,null,No,Confirmed Positive
+C05201815985800U,8/14/2018,T0J 1V0,6,null,No,Confirmed Positive
+C052018161092001,8/15/2018,T1A 7H1,1,null,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+C05201815754500M,8/15/2018,T1M 1N3,1,null,Yes,Confirmed Positive
+C05201816462700Y,8/20/2018,T2E 2W6,6,null,No,Confirmed Positive
+C05201815775700Z,8/21/2018,T1H 4B6,1,null,Yes,Confirmed Positive
+C05201815807500Y,8/28/2018,T0L 0V0,1,null,Yes,Confirmed Positive
+,,,,,,
+W041017081860,6/7/2017,85233,16,23.27,No,Confirmed Positive
+W200717272038,6/8/2017,85739,1,12.78,Yes,False Positive
+W041017079297,6/14/2017,85225,1,1.26,Yes,False Positive
+W041017084997,6/15/2017,85210,1,32.3,Yes,Confirmed Positive
+W041017085075,6/17/2017,85210,1,9.36,Yes,Confirmed Positive
+W041017085734,6/20/2017,85213,1,31.66,Yes,Confirmed Positive
+W041017096463,7/2/2017,85282,1,1.14,Yes,False Positive
+W041017092278,7/7/2017,85260,1,1.09,Yes,False Positive
+W041017092354,7/10/2017,85254,1,36.32,Yes,Confirmed Positive
+W041017092729,7/12/2017,85044,1,13.9,No,Cannot Conclude - Result Unresolved
+W200717277744,8/16/2017,85208,16,34.22,No,Confirmed Positive
+W041017117354,8/23/2017,85256,1,22.57,Yes,Confirmed Positive
+W200717878443,8/25/2017,85748,1,31.71,Yes,Confirmed Positive
+W041017117383,8/27/2017,85298,1,25.06,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W200717277962,8/28/2017,85212,1,31.03,Yes,Confirmed Positive
+W041017121563,8/31/2017,85212,1,32.71,Yes,Confirmed Positive
+W041017110911,9/6/2017,85025,16,33.42,No,Confirmed Positive
+W041017126966,9/14/2017,85234,1,19.47,Yes,Confirmed Positive
+W200717289097,9/21/2017,85120,1,30.37,Yes,Confirmed Positive
+W041017130833,9/22/2017,85392,1,27.49,No,Confirmed Positive
+W041019077726,5/24/2019,85213,16,31.44,No,Confirmed Positive
+W041019077863,5/27/2019,85202,1,1.53,Yes,Cannot Conclude - No Additional Testing
+W041019078631,5/27/2019,85283,1,1.15,Yes,False Positive
+W041019082000,6/4/2019,85201,1,34.77,Yes,Confirmed Positive
+W041019082552,6/6/2019,85202,1,31.07,Yes,Confirmed Positive
+W041019083593,6/7/2019,85345,16,31.82,No,Confirmed Positive
+W041019082791,6/11/2019,85353,1,32.66,Yes,Confirmed Positive
+W041019087070,6/12/2019,85308,1,1.12,Yes,False Positive
+W041019084685,6/16/2019,85205,1,21.03,Yes,Confirmed Positive
+W041019087246,6/17/2019,85024,1,18.04,Yes,Confirmed Positive
+W200719436870,6/18/2019,85032,1,35.08,Yes,Confirmed Positive
+W041019077305,6/19/2019,85395,1,34.02,Yes,Confirmed Positive
+W041019084559,6/19/2019,85022,1,20.03,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+AGFU175 1914723,6/21/2019,85015,1,18.35,No,Cannot Conclude - No Additional Testing
+W041019090991,6/23/2019,85312,16,14.79,No,Confirmed Positive
+W041019091839,6/25/2019,85254,1,17.28,Yes,Confirmed Positive
+W041019091894,6/26/2019,85032,1,18.49,Yes,Confirmed Positive
+W041019087662,6/27/2019,85021,1,17.06,Yes,Confirmed Positive
+W041019095641,7/1/2019,85212,1,32.26,Yes,Confirmed Positive
+W041019092114,7/3/2019,85255,1,15.21,No,Confirmed Positive
+W041019095429,7/3/2019,85340,1,27.75,No,Confirmed Positive
+W041019098057,7/6/2019,85226,1,11.48,No,Confirmed Positive
+W041019069717,7/10/2019,85286,1,32.75,No,Confirmed Positive
+1916421,7/12/2019,85205,1,30.49,No,Cannot Conclude - Test Results Pending
+DNA1916421,7/12/2019,85205,1,30.49,No,Confirmed Positive
+W200719441217,7/14/2019,85260,1,27.6,Yes,Confirmed Positive
+W041019094308,7/16/2019,85224,1,30.48,Yes,Confirmed Positive
+W041019100291,7/16/2019,85355,1,31.32,Yes,Confirmed Positive
+W041019092406,7/17/2019,85286,1,33.28,Yes,Confirmed Positive
+W041019104394,7/25/2019,85260,1,17.88,Yes,Confirmed Positive
+W041019112391,8/6/2019,85254,1,32.23,Yes,Confirmed Positive
+W041019113641,8/10/2019,85260,1,20.46,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W041019120782,8/23/2019,85248,1,15.21,Yes,Confirmed Positive
+W041019126202,9/5/2019,85297,1,29.43,Yes,Confirmed Positive
+,,,,,,
+W036517543978,7/14/2017,71801,16,35.42,No,Confirmed Positive
+W036517543977,7/14/2017,71801,16,30.74,No,Confirmed Positive
+W205517247907,8/1/2017,72022,1,1.3,Yes,False Positive
+W205517247927,8/2/2017,71762,1,27.68,Yes,Confirmed Positive
+W205517247211,8/8/2017,72560,1,1.45,Yes,False Positive
+W036517562043,8/19/2017,71852,16,35.42,No,Confirmed Positive
+W091017225748,8/21/2017,72113,1,1.25,Yes,False Positive
+W205517250623,8/23/2017,72019,1,1.02,Yes,False Positive
+W205517250673,8/25/2017,72128,1,18.86,Yes,False Positive
+W091017299583,9/25/2017,72113,1,1.1,Yes,False Positive
+W091017323623,9/27/2017,72947,1,4.41,Yes,False Positive
+W036517576592,9/28/2017,71854,16,31.8,No,Cannot Conclude - Result Unresolved
+BW091018317349,9/18/2018,72113,1,1.05,Yes,False Positive
+BW091019254821,7/14/2019,71601,16,35.43,No,Confirmed Positive
+W091019254821,7/14/2019,71601,16,34.86,No,Confirmed Positive
+BW091019265469,8/21/2019,72034,16,32.24,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+C05101717854800F,8/10/2017,V0H 1R1,6,null,No,Confirmed Positive
+,,,,,,
+W044217750121,6/19/2017,92227,16,33.19,No,Confirmed Positive
+W200617498259,6/20/2017,91401,1,5.37,Yes,False Positive
+W224317801187,6/28/2017,93308,16,28.52,No,Confirmed Positive
+W125617708756,6/28/2017,92240,1,1.12,Yes,False Positive
+W200617502774,7/3/2017,92651,1,33.29,Yes,Confirmed Positive
+W069517104747,7/8/2017,91709,1,31.73,Yes,Confirmed Positive
+W121517307441,7/11/2017,90640,1,28.69,Yes,Cannot Conclude - Result Unresolved
+W238617602845,7/11/2017,92801,1,16.36,Yes,Cannot Conclude - Result Unresolved
+W238617602843,7/11/2017,92866,1,4.54,Yes,False Positive
+W200617505040,7/11/2017,92508,1,1.16,Yes,False Positive
+W200617519122,7/11/2017,90401,1,1.02,Yes,False Positive
+W224317307575,7/12/2017,93304,1,29.93,Yes,Confirmed Positive
+W200617539647,7/19/2017,91709,1,32.82,Yes,Confirmed Positive
+W125617429501,7/19/2017,92336,16,33.91,No,Confirmed Positive
+W125617429759,7/20/2017,92879,1,25.79,Yes,Cannot Conclude - Result Unresolved
+W200617539722,7/20/2017,91786,1,27.04,Yes,Confirmed Positive
+W200617466328,7/20/2017,91405,1,1.23,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W224317308079,7/21/2017,93311,1,1.34,Yes,Confirmed Positive
+W125617203904,7/21/2017,91762,1,32.04,Yes,Confirmed Positive
+W125617429625,7/21/2017,92336,1,32.42,Yes,Confirmed Positive
+W200617539900,7/24/2017,91773,1,29.63,Yes,Confirmed Positive
+W200617529032,7/28/2017,93534,1,8.5,Yes,Confirmed Positive
+W200617531194,7/28/2017,91311,1,1.16,Yes,False Positive
+W125617602124,7/30/2017,92346,1,31.43,Yes,Confirmed Positive
+W238617502030,8/2/2017,92705,1,1.22,Yes,False Positive
+W069517105415,8/3/2017,91724,1,32.31,Yes,Confirmed Positive
+W149517140088,8/7/2017,95524,1,null,No,Confirmed Positive
+W200617506890,8/8/2017,93535,1,26.97,Yes,Confirmed Positive
+W035817073951,8/9/2017,95927,16,31.29,No,Confirmed Positive
+W125617204310,8/10/2017,91784,1,36.36,Yes,Confirmed Positive
+W238617603383,8/11/2017,92882,1,29.19,Yes,Confirmed Positive
+W115917045164,8/12/2017,93722,16,35.36,No,Confirmed Positive
+W200617504303,8/12/2017,92078,1,1.06,Yes,False Positive
+W208417428772,8/14/2017,95361,16,32.61,No,Confirmed Positive
+W050517003811,8/14/2017,91356,1,2.19,Yes,Confirmed Positive
+W200617525149,8/14/2017,92335,1,1.23,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W200617538026,8/14/2017,91755,1,1.39,Yes,False Positive
+W200617525141,8/14/2017,91730,1,1.4,Yes,False Positive
+3213369,8/16/2017,91764,1,1.15,Yes,Cannot Conclude - Result Unresolved
+W200617540330,8/16/2017,91108,1,1.47,Yes,False Positive
+W200617534891,8/16/2017,90265,1,1.81,Yes,False Positive
+W200617528244 ,8/16/2017,90604,1,2.62,Yes,False Positive
+W200617540587,8/16/2017,92069,1,2.44,Yes,False Positive
+W200617543067,8/19/2017,92804,1,29.31,Yes,Confirmed Positive
+W200617540376,8/19/2017,91754,1,1.16,Yes,False Positive
+W200617505521,8/21/2017,91710,1,26.81,Yes,Confirmed Positive
+W200617543107,8/22/2017,90631,1,30.49,Yes,Confirmed Positive
+W200617524674,8/23/2017,90025,1,1.91,Yes,False Positive
+W125617433830,8/25/2017,92223,1,25.31,Yes,Confirmed Positive
+W125617434152,8/25/2017,92223,1,1.01,Yes,False Positive
+W22431750603200,8/28/2017,93263,1,32.74,Yes,Confirmed Positive
+W070017102888,8/29/2017,90640,1,33.91,Yes,Confirmed Positive
+W035817122453,8/29/2017,95747,1,28.54,Yes,Confirmed Positive
+W208417426746,8/31/2017,93620,1,30.24,Yes,Confirmed Positive
+W200617511286,8/31/2017,92345,1,1.29,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W224317104346,9/1/2017,93313,1,24.54,Yes,Confirmed Positive
+W224317310088,9/1/2017,93312,1,30.28,Yes,Confirmed Positive
+W115917211644,9/3/2017,93725,16,34.76,No,Confirmed Positive
+W125617435553,9/5/2017,92405,1,7.14,Yes,Cannot Conclude - Result Unresolved
+W121517602915,9/5/2017,90037,1,28.55,Yes,Confirmed Positive
+W200617541983,9/5/2017,92707,1,35.58,Yes,Confirmed Positive
+W125617710282,9/5/2017,92373,1,27.28,Yes,Confirmed Positive
+W208417809196,9/6/2017,95361,1,12.89,Yes,Confirmed Positive
+w121517309568,9/6/2017,91406,1,27.57,Yes,Confirmed Positive
+W200617539119,9/7/2017,91206,1,34.88,Yes,Confirmed Positive
+W208417804942,9/7/2017,94553,1,31.03,Yes,Confirmed Positive
+W200617565515,9/9/2017,92870,1,33.58,Yes,Confirmed Positive
+W208417803784,9/10/2017,94551,1,27.66,Yes,Confirmed Positive
+W115917232106,9/11/2017,93274,1,2.18,Yes,Confirmed Positive
+W125617205076,9/11/2017,91730,1,1.06,Yes,False Positive
+W200617559953,9/12/2017,91205,1,32.37,Yes,Confirmed Positive
+W200617586516,9/13/2017,90712,1,1.72,Yes,Confirmed Positive
+W208417458690,9/13/2017,95361,1,30.57,Yes,Confirmed Positive
+W224317506412,9/14/2017,93215,1,24.84,Yes,Cannot Conclude - Result Unresolved
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W200617561577,9/14/2017,92880,1,33.65,Yes,Confirmed Positive
+W224317310824,9/15/2017,93307,1,13.32,Yes,Cannot Conclude - Result Unresolved
+W125617106540,9/15/2017,92509,1,32.31,Yes,Confirmed Positive
+W200617527884,9/16/2017,90036,1,17.55,Yes,Confirmed Positive
+W200617565620,9/16/2017,92806,1,1.17,Yes,False Positive
+W200617565663 ,9/19/2017,92832,1,34.63,Yes,Confirmed Positive
+W115917261507,9/19/2017,93722,1,29.12,Yes,Confirmed Positive
+W070517113976,9/20/2017,95051,1,null,Yes,Cannot Conclude - Result Unresolved
+W200617567130,9/23/2017,91702,1,33.97,Yes,Confirmed Positive
+W200617564383,9/23/2017,91367,1,3.53,Yes,Confirmed Positive
+W200617810087,9/27/2017,91364,1,28.84,Yes,Confirmed Positive
+W200617561822,9/27/2017,92706,1,1.02,Yes,False Positive
+W115917111087,9/28/2017,93277,1,5.66,Yes,False Positive
+W035817118762,9/29/2017,95747,1,31.39,Yes,Confirmed Positive
+W200617586733,9/30/2017,90043,1,24.29,Yes,Confirmed Positive
+W208417471886,10/5/2017,95125,1,1.54,Yes,False Positive
+W035817113866,10/10/2017,95632,16,25.82,No,False Positive
+W224317312123,10/13/2017,93312,1,1.06,Yes,False Positive
+W035817125729,10/18/2017,95604,1,1.07,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W208417465894,10/30/2017,94561,1,1.13,Yes,False Positive
+W200617594777,11/8/2017,92882,1,5.11,Yes,False Positive
+W200617594785,11/8/2017,92882,1,31.32,Yes,False Positive
+W200617568457,11/8/2017,92078,1,3.5,Yes,False Positive
+W200617589573,11/11/2017,90275,1,25.15,Yes,Confirmed Positive
+W200617566842,11/13/2017,92646,1,26.17,Yes,False Positive
+W125617715595,11/24/2017,92262,16,20.53,No,Cannot Conclude - Result Unresolved
+W200617598764,11/29/2017,91302,1,2.74,Yes,False Positive
+W115918051973,7/7/2018,93619,16,33.2,No,Confirmed Positive
+W208418580528,7/9/2018,95203,16,32.94,No,Confirmed Positive
+W070018004542,7/17/2018,90004,1,1.41,Yes,False Positive
+W070018004551,7/17/2018,91384,1,1.95,Yes,False Positive
+W035818081680,7/18/2018,95209,16,29.28,No,Confirmed Positive
+W208418573181,7/20/2018,95350,1,38.76,Yes,Confirmed Positive
+W035818107497,7/24/2018,95610,16,28.61,No,Confirmed Positive
+W035818122574,7/28/2018,95973,16,27.15,No,Confirmed Positive
+W035818107984,7/30/2018,95695,16,32.49,No,Confirmed Positive
+W208418850131,7/30/2018,95204,1,24.98,Yes,False Positive
+W208418586546,7/30/2018,95356,1,10.16,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W208418559188,7/30/2018,95328,1,23.2,Yes,False Positive
+W208418847675,7/30/2018,95127,1,35.78,Yes,False Positive
+W208418851938,7/30/2018,94523,1,17.84,Yes,False Positive
+W208418564848,7/30/2018,95330,1,8.62,Yes,False Positive
+W035818084555,7/31/2018,95948,1,32.83,Yes,Confirmed Positive
+W200618853409,8/2/2018,92833,16,34.24,No,Confirmed Positive
+W200618076551,8/2/2018,92405,1,25.75,Yes,False Positive
+W035818077564,8/3/2018,95928,1,33.13,Yes,Confirmed Positive
+W115918044972,8/3/2018,93711,16,34.03,No,Confirmed Positive
+W035818061528,8/5/2018,95963,1,32.1,Yes,Confirmed Positive
+W200618760027,8/6/2018,90064,1,1.25,Yes,False Positive
+W035818067642,8/10/2018,95948,16,34.63,No,Confirmed Positive
+W208418564985,8/11/2018,95242,1,27.21,Yes,Confirmed Positive
+W208418583071 ,8/11/2018,94605,1,1.31,Yes,False Positive
+W208418550960,8/11/2018,95020,1,1.78,Yes,False Positive
+W208418583067,8/11/2018,94516,1,1.81,Yes,False Positive
+W200618063269,8/15/2018,91106,1,1.02,Yes,False Positive
+W200618107133,8/15/2018,91351,1,1.92,Yes,False Positive
+W200618105910,8/16/2018,92832,1,33.98,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W200618115934,8/20/2018,91761,1,1.82,Yes,False Positive
+W200618115935,8/20/2018,91724,1,1.58,Yes,False Positive
+W200618115929,8/20/2018,91739,1,1.38,Yes,False Positive
+W200618087550,8/21/2018,91301,1,1.31,Yes,False Positive
+W224318308649,8/23/2018,93301,16,30.47,No,Confirmed Positive
+W125618085222,8/23/2018,92879,1,1.06,Yes,False Positive
+W125618085445,8/23/2018,92346,1,1.43,Yes,False Positive
+W125618085297,8/23/2018,92346,1,1.24,Yes,False Positive
+W125618085468,8/23/2018,92346,1,1.02,Yes,False Positive
+W125618085284,8/23/2018,92346,1,1.47,Yes,False Positive
+W125618085361,8/23/2018,92346,1,1.38,Yes,False Positive
+W125618085196,8/23/2018,91710,1,1.29,Yes,False Positive
+W125618084477,8/23/2018,91730,1,1.22,Yes,False Positive
+W035818124548,8/29/2018,95758,16,30.42,No,Confirmed Positive
+W200618121143,8/29/2018,90650,1,1.2,Yes,False Positive
+W125618089944,9/5/2018,92503,1,34.28,Yes,Confirmed Positive
+W125618089516,9/5/2018,92346,1,34.11,Yes,Confirmed Positive
+W125618090118,9/5/2018,91766,1,1.09,Yes,False Positive
+W200618107886,9/5/2018,93065,1,1.37,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W208418600572,9/6/2018,95357,1,13.97,Yes,Confirmed Positive
+W035818094520,9/8/2018,95828,1,36.46,Yes,Confirmed Positive
+W035818095015,9/9/2018,96080,16,33.57,No,Confirmed Positive
+W200618124705,9/10/2018,92506,1,1,Yes,False Positive
+W200618095673,9/10/2018,91001,1,1.36,Yes,False Positive
+W200618103435,9/12/2018,92626,1,29.26,Yes,Confirmed Positive
+W200618128168,9/16/2018,92647,1,1.05,Yes,Cannot Conclude - Test Results Pending
+W200618068423,9/16/2018,90045,1,1.34,Yes,False Positive
+W200618123002,9/16/2018,92840,1,1.19,Yes,False Positive
+W200618123017,9/16/2018,90602,1,1.05,Yes,False Positive
+W200618125507,9/16/2018,92802,1,1.16,Yes,False Positive
+W200618132059,9/19/2018,91365,1,17.78,Yes,Confirmed Positive
+W200618123130,9/25/2018,90002,1,1.83,Yes,False Positive
+W070018006606,10/6/2018,91423,1,34.46,Yes,Confirmed Positive
+W200618177739,10/10/2018,92704,1,35.63,Yes,Confirmed Positive
+W200618081913,10/11/2018,90630,1,1.12,Yes,False Positive
+W200618184845,10/24/2018,91722,1,1.33,Yes,False Positive
+W200618184857,10/24/2018,91722,1,1.55,Yes,False Positive
+W200618203635,11/3/2018,90024,1,1.45,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W069518106899,11/3/2018,90631,1,1.05,Yes,False Positive
+W200618202200,11/8/2018,91401,1,1.09,Yes,False Positive
+W200618180263,11/9/2018,91741,1,1.44,Yes,False Positive
+W121518312551,11/14/2018,90254,1,1.07,Yes,False Positive
+1189002,1/7/2019,94503,1,33.21,Yes,False Positive
+5174175,1/17/2019,91343,1,1.01,No,False Positive
+W070019100201,1/27/2019,93065,1,1.13,No,False Positive
+W069519200108,1/28/2019,92707,1,1.03,No,False Positive
+W069519101109,2/14/2019,91724,1,1.33,Yes,False Positive
+W121719000516,5/8/2019,91506,1,1.32,No,False Positive
+W313719055133,5/13/2019,90044,1,1.1,No,Confirmed Positive
+W069519103357,5/13/2019,91741,1,1.08,Yes,False Positive
+W069519203271,5/25/2019,91767,1,1.43,Yes,False Positive
+W035819073043,5/29/2019,95610,1,1.12,No,False Positive
+W088819228244,6/5/2019,90803,1,1.25,Yes,False Positive
+W070019102146,6/10/2019,90278,1,1.06,Yes,False Positive
+W069519104168,6/10/2019,90601,1,1.12,Yes,False Positive
+W070519101219,6/19/2019,95124,1,null,Yes,False Positive
+W070519101220,6/19/2019,94041,1,null,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W070519112475,6/19/2019,94040,1,null,Yes,False Positive
+W070519511540,6/20/2019,95125,1,null,Yes,False Positive
+W070519112478,6/20/2019,95050,1,null,Yes,False Positive
+W224319305353,7/1/2019,93304,16,34.45,No,Confirmed Positive
+W115919060245,7/5/2019,93720,1,31.11,No,Confirmed Positive
+W224319504663,7/8/2019,93306,1,29.27,Yes,Confirmed Positive
+W121719006846,7/11/2019,90026,1,8.3,No,Cannot Conclude - No Additional Testing
+W115919044765,7/11/2019,93636,1,30.97,Yes,Confirmed Positive
+W070519012149,7/13/2019,94063,1,null,Yes,False Positive
+W208419698790,7/15/2019,95336,16,31.42,No,Confirmed Positive
+W125619076426,7/18/2019,92359,16,29.49,No,Cannot Conclude - No Additional Testing
+W125619076707,7/21/2019,92335,16,29.57,No,Confirmed Positive
+W115919012378,7/22/2019,93711,1,31.98,Yes,Confirmed Positive
+W224319306333,7/24/2019,93308,1,31.75,Yes,Confirmed Positive
+W208419703450,7/24/2019,95355,16,32.96,Yes,Confirmed Positive
+W224319306430,7/26/2019,93613,1,30.87,Yes,Confirmed Positive
+W070519113115,7/29/2019,94040,1,null,Yes,False Positive
+W224319306542,7/31/2019,93308,1,31.23,Yes,Confirmed Positive
+W115919201425,8/4/2019,93611,1,30.17,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W115919045936,8/10/2019,93722,1,31.41,Yes,Confirmed Positive
+W035819069468,8/16/2019,95614,16,32.38,No,Confirmed Positive
+W035819030606,8/21/2019,95973,16,30.19,No,Confirmed Positive
+W070519213717,8/24/2019,96002,1,null,Yes,False Positive
+W200619396356,8/31/2019,92801,16,30.06,No,Confirmed Positive
+5680797,9/6/2019,90405,1,1.15,No,False Positive
+W208419694759,9/13/2019,95369,1,34.84,Yes,Confirmed Positive
+,,,,,,
+W036217295856,7/25/2017,80525,16,29.95,No,Confirmed Positive
+W036217105026,8/8/2017,80504,16,31.19,No,Confirmed Positive
+W036217128846,8/26/2017,80215,16,33.39,No,Confirmed Positive
+W092917102146,9/11/2017,80526,16,30.53,No,Confirmed Positive
+W039817300199,9/11/2017,80513,1,32.7,Yes,False Positive
+9104208,9/26/2017,80498,1,29.62,No,Cannot Conclude - Result Unresolved
+3216583,7/5/2018,81602,1,2.02,No,False Positive
+W056318008227,7/30/2018,81428,16,31.45,No,Confirmed Positive
+W036218632853,8/28/2018,81007,16,32.8,No,Confirmed Positive
+W140518443085,8/28/2018,80112,16,26.66,No,Confirmed Positive
+W036218617192,9/7/2018,80026,16,29.96,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W036218645311,9/17/2018,80503,16,34.53,No,Confirmed Positive
+W036219124608,8/17/2019,80234,16,26.21,No,Confirmed Positive
+W036219094037,8/27/2019,80126,16,31.32,No,Confirmed Positive
+W140519555642,8/30/2019,80514,16,29.95,No,Confirmed Positive
+W036219100650,9/1/2019,80012,1,6.84,Yes,Confirmed Positive
+W036219121349,9/3/2019,81240,16,30.56,No,Confirmed Positive
+W036219120883,9/3/2019,80005,1,30.84,Yes,Confirmed Positive
+W036219100745,9/4/2019,80014,1,28.61,Yes,Confirmed Positive
+W036219108336,9/7/2019,80601,16,30.16,Yes,Confirmed Positive
+W036219125246,9/11/2019,80004,1,30.14,Yes,Confirmed Positive
+W036219131427,9/14/2019,80020,16,33.27,Yes,Confirmed Positive
+W036219131263,9/17/2019,80233,1,31.74,Yes,Confirmed Positive
+,,,,,,
+W203318640242,6/7/2018,6360,16,1.08,No,False Positive
+W203318667718,8/18/2018,6901,1,32.17,Yes,Confirmed Positive
+W235019000004,1/2/2019,6811,1,1.28,No,Cannot Conclude - Test Results Pending
+W203319790716,8/29/2019,6074,16,29.86,No,Confirmed Positive
+,,,,,,
+W036919701350,6/1/2019,19707,1,39.52,No,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W036919211508,6/4/2019,19808,1,null,No,False Positive
+,,,,,,
+W205318869931,7/27/2018,20002,1,30.7,Yes,Confirmed Positive
+,,,,,,
+W036817601350,8/14/2017,32034,1,1.03,Yes,False Positive
+W036817722441,8/24/2017,32503,16,27.66,No,Confirmed Positive
+W036817837133,9/4/2017,32703,1,1,Yes,False Positive
+W036817809531,9/22/2017,32725,16,34.46,No,Confirmed Positive
+W036817888565,11/10/2017,33990,16,33.73,No,Confirmed Positive
+W036817982611,11/19/2017,33020,1,1.13,No,Cannot Conclude - Result Unresolved
+W036817992938,12/7/2017,32828,1,1.18,Yes,Cannot Conclude - Result Unresolved
+1153216,12/7/2017,32256,1,2.21,No,Cannot Conclude - Result Unresolved
+W036818203402,1/22/2018,34741,1,1.47,No,False Positive
+W036818263500,6/22/2018,32413,16,33.16,No,Confirmed Positive
+W036818536758,7/23/2018,32408,16,32.64,No,Confirmed Positive
+W200318323407,8/9/2018,32097,16,36.63,No,Confirmed Positive
+W036818609034,8/22/2018,32208,16,28.62,No,Confirmed Positive
+W425518002222,9/20/2018,33136,1,6.92,Yes,Confirmed Positive
+W115118201766,10/11/2018,32112,16,33.06,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W036818900342,10/16/2018,32351,16,33.63,No,Confirmed Positive
+W036818908471,10/18/2018,33578,16,33.55,No,Confirmed Positive
+W115118501523,2/8/2019,32094,1,1.03,No,False Positive
+W425519000222,3/1/2019,33136,1,32.95,No,False Positive
+W425619102852,3/11/2019,33319,1,3.55,Yes,False Positive
+W425519103153,3/12/2019,33145,1,18.52,Yes,Confirmed Positive
+W425619000257,4/15/2019,33324,1,1.08,No,False Positive
+W115119500267,5/5/2019,32608,1,1.72,No,Cannot Conclude - No Additional Testing
+W425519000565,5/6/2019,33142,1,21.64,No,Cannot Conclude - No Additional Testing
+W425619000396,6/4/2019,33332,1,4.68,No,Cannot Conclude - No Additional Testing
+W035519002305,6/11/2019,33183,1,1.65,No,Confirmed Positive
+W036819075984,6/11/2019,33614,1,1.02,No,False Positive
+W036819250397,8/12/2019,32404,16,33.04,No,Confirmed Positive
+,,,,,,
+W311217000707,4/24/2017,30075,1,null,No,False Positive
+W036817738707,7/31/2017,39817,6,null,No,Confirmed Positive
+W200317048804,8/3/2017,30286,16,33.58,No,Confirmed Positive
+W200317044532,8/29/2017,31411,1,17.07,Yes,Confirmed Positive
+W200317056229,9/2/2017,31906,16,34.46,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W200317061634,9/4/2017,30046,16,34.67,No,Confirmed Positive
+W200317098115,9/5/2017,30122,1,14.06,No,Confirmed Positive
+W036817822146,10/7/2017,31405,16,32.6,No,Confirmed Positive
+W200317107773,10/24/2017,31204,1,32.72,Yes,Confirmed Positive
+W200317086057,10/28/2017,31419,1,1.06,Yes,False Positive
+W200317108726,11/9/2017,31216,1,1.05,Yes,False Positive
+W200317098766,11/17/2017,31089,1,35.92,Yes,Confirmed Positive
+W200317121385,11/17/2017,30139,1,1.27,Yes,False Positive
+W200317093541,11/30/2017,30094,1,1,Yes,False Positive
+W036818617769,7/21/2018,31410,16,30.06,No,Confirmed Positive
+W200318298612,8/16/2018,31520,16,34.35,No,Confirmed Positive
+W200318341461,10/17/2018,30277,16,14.72,No,Confirmed Positive
+W200318361065,10/24/2018,30075,1,31.82,Yes,Confirmed Positive
+W115119127082,8/30/2019,31406,16,29.97,No,Confirmed Positive
+W200319608610,9/12/2019,30309,16,31.98,No,Confirmed Positive
+,,,,,,
+W012117207035,8/9/2017,96826,1,null,No,Cannot Conclude - Result Unresolved
+,,,,,,
+W202017131699,9/5/2017,83709,1,16.71,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W202017235722,9/6/2017,83651,1,25.94,Yes,Confirmed Positive
+W202017235744,9/7/2017,83338,1,31.68,Yes,Confirmed Positive
+W202017236518,9/12/2017,83301,1,18.58,Yes,Confirmed Positive
+W202017130440,9/25/2017,83612,1,16.79,Yes,Confirmed Positive
+W202017130444,9/25/2017,83632,1,22.54,Yes,Confirmed Positive
+W202017111755,10/2/2017,83706,1,18.65,Yes,Confirmed Positive
+W226118013200,8/24/2018,83204,1,null,No,Cannot Conclude - No Additional Testing
+W202019700374,8/7/2019,83201,16,33.88,No,Confirmed Positive
+W202019717272,8/7/2019,83672,16,33.31,No,Confirmed Positive
+W202019717461,8/13/2019,83334,16,29.1,No,Confirmed Positive
+W202019718144,8/20/2019,83672,1,34.62,Yes,Confirmed Positive
+W202019750549,8/30/2019,83619,1,33.54,Yes,Confirmed Positive
+W202019750159,9/6/2019,83639,1,1.37,Yes,False Positive
+W202019718464,9/6/2019,83321,1,13.78,Yes,False Positive
+,,,,,,
+W201117436349,7/17/2017,62902,1,1.21,No,False Positive
+B W039717062383-7,8/8/2017,60142,1,33.43,No,Cannot Conclude - Result Unresolved
+DN00504633,8/17/2017,60302,1,34.21,Yes,Cannot Conclude - Result Unresolved
+DN20337564,8/19/2017,60490,1,31.86,Yes,Cannot Conclude - Result Unresolved
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W039717073732,8/21/2017,60098,1,32.02,Yes,Cannot Conclude - Result Unresolved
+W039717078736-9,8/25/2017,60088,1,33.97,Yes,Cannot Conclude - Result Unresolved
+W286417003648,9/1/2017,60047,1,19.7,Yes,Cannot Conclude - Result Unresolved
+W288117001624,9/5/2017,60423,1,24.6,Yes,Confirmed Positive
+W287017003434,9/9/2017,60107,16,30.96,Yes,Cannot Conclude - Result Unresolved
+W286917003227,9/9/2017,60002,1,31.72,Yes,Confirmed Positive
+W039717070686-E,9/24/2017,60302,1,32.42,Yes,Confirmed Positive
+W288417003716,9/28/2017,60613,1,35.13,Yes,False Positive
+W287917002452,10/7/2017,60634,1,17.68,Yes,Confirmed Positive
+W204018696333,7/16/2018,60601,1,13.35,Yes,False Positive
+W286818022567,7/24/2018,60062,16,26.51,No,Confirmed Positive
+W286918002407,7/31/2018,60046,1,1.25,Yes,False Positive
+W039718105826-B,8/1/2018,60174,1,1.36,Yes,False Positive
+W039718093021-4,8/7/2018,60565,1,33.77,Yes,Confirmed Positive
+W204018692545,8/8/2018,60402,1,34.29,Yes,Confirmed Positive
+W286818048559,8/8/2018,60016,1,32.22,No,Confirmed Positive
+W039718102954-6,8/13/2018,60564,1,35.05,Yes,Confirmed Positive
+W039718100460-8,8/15/2018,60101,1,33.62,Yes,Confirmed Positive
+W039718099998-G,8/17/2018,60129,1,36.36,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+w204018721321,8/21/2018,61021,1,34.28,Yes,Confirmed Positive
+W204018702623,8/23/2018,60640,1,35.26,Yes,False Positive
+W201118707218,8/24/2018,62948,16,28.14,No,Confirmed Positive
+W286818046564,8/26/2018,60465,16,30.49,No,Confirmed Positive
+W288418002927,8/30/2018,60018,1,32.85,Yes,Confirmed Positive
+W039718079168-8,9/1/2018,60561,16,34.84,No,Confirmed Positive
+W200918071913,9/2/2018,60554,1,24.49,Yes,Confirmed Positive
+W287318001203,9/10/2018,60618,1,32.36,Yes,Confirmed Positive
+W286518002780,9/11/2018,60013,1,31.65,Yes,Confirmed Positive
+W039718089296-Y,9/13/2018,60612,1,26.6,Yes,False Positive
+W201118863974,9/18/2018,62216,1,20.86,Yes,Confirmed Positive
+W204018723736,9/22/2018,60951,1,6.73,Yes,Confirmed Positive
+W204018723728,9/22/2018,60964,1,23.71,Yes,Confirmed Positive
+W286818053250,9/23/2018,60160,1,29.83,Yes,Confirmed Positive
+W039718081065-7,9/24/2018,60123,16,33.19,No,Confirmed Positive
+W287918002193,9/26/2018,60707,1,33.53,Yes,Confirmed Positive
+W288518003335,9/28/2018,60137,1,1.2,Yes,Confirmed Positive
+W039718118799-G,10/13/2018,60133,1,33.78,Yes,Cannot Conclude - Test Results Pending
+W039718118558-D,10/14/2018,60563,1,1.08,Yes,Cannot Conclude - Test Results Pending
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W286818054925,10/17/2018,60025,1,1.35,Yes,False Positive
+W286818051208,10/30/2018,60126,1,11.02,Yes,Confirmed Positive
+W286818039432,11/10/2018,60060,1,1.38,Yes,False Positive
+W286818043674,11/13/2018,60469,1,1.01,Yes,False Positive
+W287618003379,11/21/2018,60612,1,1.44,Yes,Confirmed Positive
+W286818044712,11/29/2018,60656,1,1.23,Yes,Confirmed Positive
+W333519016344,9/24/2019,61802,6,null,No,Confirmed Positive
+,,,,,,
+CB1722062,7/10/2017,47960,1,null,No,Confirmed Positive
+W202417555556,7/21/2017,47562,16,32.02,No,Confirmed Positive
+W202417567074,8/8/2017,47111,1,29.92,Yes,Confirmed Positive
+W203817544798,8/21/2017,46740,1,28.38,Yes,Confirmed Positive
+W040717524932,9/19/2017,46202,6,null,No,Confirmed Positive
+CB1828730,7/7/2018,46410,1,null,No,Cannot Conclude - No Additional Testing
+CB1829219,7/7/2018,46074,1,null,No,Cannot Conclude - No Additional Testing
+W203818659397,8/6/2018,46342,1,9.15,Yes,False Positive
+W040718652070,8/20/2018,46033,6,null,No,Confirmed Positive
+W040718652928,8/23/2018,47834,6,null,No,Confirmed Positive
+W203818889499,8/25/2018,46528,1,32.88,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W040718653157,8/28/2018,46038,1,null,Yes,Confirmed Positive
+W203818666700,8/29/2018,47303,1,22.64,Yes,Confirmed Positive
+W203818661604,8/31/2018,46815,1,34.05,Yes,Confirmed Positive
+W203818669862,9/4/2018,46550,1,29.03,Yes,Confirmed Positive
+W203818670798,9/6/2018,46514,1,35.37,Yes,Confirmed Positive
+W202418705996,9/17/2018,47446,16,33.43,No,Confirmed Positive
+W203818888781,9/24/2018,46528,1,22.97,Yes,Confirmed Positive
+W203818659659,9/24/2018,46356,1,9.07,Yes,Confirmed Positive
+W203818665515,9/25/2018,46383,1,1.13,Yes,False Positive
+W203818661907,9/25/2018,46815,1,1.03,Yes,False Positive
+W203818665507,9/25/2018,46383,1,1.52,Yes,False Positive
+W203818881942,10/2/2018,46816,1,13.77,Yes,Confirmed Positive
+W045218018036,10/10/2018,46550,6,31.8,No,Confirmed Positive
+CB1936900,9/29/2019,46383,1,50.5,No,Cannot Conclude - No Additional Testing
+CB1936653,10/1/2019,46037,1,22.7,No,Cannot Conclude - No Additional Testing
+W202419023679,10/9/2019,46239,1,1.11,Yes,False Positive
+,,,,,,
+W044117115211,7/21/2017,51243,6,null,No,Cannot Conclude - Result Unresolved
+W333617044679,8/1/2017,52655,6,null,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W333617063668,8/2/2017,52601,1,null,Yes,Confirmed Positive
+W203217701073,9/7/2017,50142,1,1.27,Yes,False Positive
+BW044118113475,7/19/2018,51250,6,null,No,Cannot Conclude - No Additional Testing
+W201718382293,7/31/2018,50588,16,32.36,No,Confirmed Positive
+W044118119528,8/13/2018,51030,6,null,No,Confirmed Positive
+W200918072271,8/23/2018,51020,1,33.16,Yes,Confirmed Positive
+W203218062889,9/4/2018,52046,16,33.73,No,Confirmed Positive
+W200918084502,9/5/2018,51576,1,30.41,Yes,Confirmed Positive
+W037918564533,9/12/2018,50105,6,null,No,Confirmed Positive
+W087918653924,9/12/2018,51526,1,41.9,Yes,Confirmed Positive
+W333618053402,9/17/2018,52561,6,null,No,Confirmed Positive
+W037919738805,9/9/2019,50558,6,null,No,Confirmed Positive
+,,,,,,
+W200217412632,7/26/2017,67601,1,31.48,No,Confirmed Positive
+W200217427236,8/25/2017,66701,16,35.94,No,Confirmed Positive
+W200217428928,9/25/2017,67876,1,33.49,Yes,Confirmed Positive
+W200917687764,10/31/2017,67735,1,1.19,Yes,False Positive
+W200218550773,8/27/2018,67063,16,34.51,No,Confirmed Positive
+W200218550103,8/30/2018,67837,16,35.79,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W045018067552,9/4/2018,66090,6,null,No,Confirmed Positive
+W045018083733,9/25/2018,66439,1,null,Yes,Confirmed Positive
+W200219637320,6/25/2019,67501,16,11.21,No,Confirmed Positive
+W200219653799,8/26/2019,67114,16,22.66,No,Confirmed Positive
+W200219850589,8/31/2019,67203,1,34.46,Yes,Confirmed Positive
+W200219656900,10/1/2019,67460,1,23.67,Yes,Confirmed Positive
+,,,,,,
+W202717526612,7/17/2017,41169,1,1.65,Yes,False Positive
+W202417510198,8/18/2017,40219,1,32.06,Yes,Confirmed Positive
+W202417570062,8/22/2017,40217,1,26.28,Yes,Confirmed Positive
+W201917430921,10/2/2017,42261,16,32.45,No,Confirmed Positive
+W201917446562,10/6/2017,42220,16,33.32,No,Confirmed Positive
+W037717070100,11/21/2017,41015,6,null,No,Confirmed Positive
+W038218090083,12/14/2018,40906,16,null,No,False Positive
+5451257,5/6/2019,40509,1,2.27,No,Confirmed Positive
+W038219049054,5/24/2019,42503,16,null,No,False Positive
+W038219055278,5/26/2019,40502,16,null,No,Cannot Conclude - Test Results Pending
+W038219055448,5/31/2019,40337,16,null,No,False Positive
+W038219073824,8/25/2019,40217,6,null,No,Cannot Conclude - Test Results Pending
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W202419025230,9/25/2019,40228,1,1.28,Yes,False Positive
+,,,,,,
+W042017019866,7/15/2017,70706,16,34.01,No,Confirmed Positive
+W036517565861,8/31/2017,71078,16,28.72,Yes,Confirmed Positive
+W165717023034,10/19/2017,70785,1,null,Yes,Cannot Conclude - Result Unresolved
+W067117050768,11/20/2017,70531,6,null,No,Confirmed Positive
+W138417003780,12/4/2017,70363,6,null,No,Confirmed Positive
+W042017032515,12/6/2017,70380,16,1.05,No,Cannot Conclude - Result Unresolved
+W036518681662,7/12/2018,71105,16,23.26,No,Confirmed Positive
+W165718018756,7/19/2018,70817,1,null,Yes,Confirmed Positive
+W067118048766,7/20/2018,70737,6,null,No,Confirmed Positive
+W036518681919,7/25/2018,71052,1,32.91,Yes,Confirmed Positive
+W036518681953,7/27/2018,71106,1,22.64,Yes,Confirmed Positive
+W165718018974,7/29/2018,70808,1,null,Yes,Confirmed Positive
+W036518683924,7/31/2018,71105,1,31.73,Yes,Confirmed Positive
+W042018020521,8/10/2018,70726,1,30.36,No,Confirmed Positive
+W036518684289,8/15/2018,71111,1,32.49,Yes,Confirmed Positive
+W067118029024,8/23/2018,70426,6,null,No,Confirmed Positive
+W036519833372,8/2/2019,71106,16,31.51,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W067119043203,8/4/2019,70438,6,null,No,Confirmed Positive
+W036519832569,9/7/2019,71422,16,29.92,No,Confirmed Positive
+,,,,,,
+C05401822947100D,7/24/2018,R0E 1L0,6,null,No,Confirmed Positive
+C05401823076200T,8/7/2018,R1A 1B5,6,null,No,Confirmed Positive
+C05401823191200H,8/10/2018,R0C 2Z0,1,null,Yes,Confirmed Positive
+Co5401823243700N,8/16/2018,R0G 0L0,6,null,No,Confirmed Positive
+C05401823323300V,8/17/2018,R2X 1Y5,1,null,Yes,Confirmed Positive
+C05401823225800T,8/21/2018,R3W 0C2,1,null,Yes,Confirmed Positive
+C05401823509400Q,8/25/2018,R2H 0B6,1,null,Yes,Confirmed Positive
+,,,,,,
+W042517048810,9/4/2017,58554,1,23.58,Yes,Confirmed Positive
+W205318092854,7/26/2018,21030,16,28.39,No,Confirmed Positive
+W205318881050,8/25/2018,21401,1,34.46,Yes,Confirmed Positive
+W205318869173,8/31/2018,21218,1,34.91,Yes,Confirmed Positive
+W092118031602,9/1/2018,20832,16,31.67,No,Confirmed Positive
+W205318117781,9/5/2018,21222,1,32.42,Yes,Confirmed Positive
+W205318117418,9/7/2018,21403,1,32.88,Yes,Confirmed Positive
+W087618542220,9/10/2018,21701,1,33.95,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W205318118915,9/17/2018,21778,1,35.76,Yes,Confirmed Positive
+W205318095654,9/21/2018,21244,1,1.2,Yes,False Positive
+W205318125850,10/16/2018,20833,1,29.16,Yes,False Positive
+W205318876112,10/18/2018,21015,1,26.37,Yes,Confirmed Positive
+W020019600233-0,6/3/2019,20653,16,null,No,False Positive
+W092119031026,6/14/2019,21713,1,1.13,Yes,False Positive
+,,,,,,
+KC99449,4/18/2017,1844,1,1.24,No,False Positive
+W121517805581,8/4/2017,2478,1,6.34,Yes,False Positive
+W202017164568,10/7/2017,2090,1,1.06,Yes,False Positive
+W336418102550,8/28/2018,2540,16,33.34,No,Confirmed Positive
+W051718628858,9/22/2018,2771,16,36.33,No,Confirmed Positive
+W200419144201,9/5/2019,2744,16,31.54,No,Confirmed Positive
+W120219305059,9/17/2019,2324,1,32.75,Yes,Cannot Conclude - No Additional Testing
+W200419154777,9/21/2019,2472,1,29.16,Yes,Confirmed Positive
+,,,,,,
+W120617501411,6/24/2017,49048,6,null,No,False Positive
+W120617008771,6/24/2017,49417,6,null,No,False Positive
+W201817615849,8/8/2017,48625,16,34.43,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W201817644013,8/18/2017,48615,1,31.94,Yes,Confirmed Positive
+W120617263635,8/21/2017,48611,6,null,No,Confirmed Positive
+W120617138494,8/22/2017,49341,6,null,No,Confirmed Positive
+W201317586875,8/22/2017,48375,16,27.37,No,Confirmed Positive
+W201817613970,8/23/2017,48883,1,28.16,Yes,Confirmed Positive
+W201817632684,8/26/2017,48910,1,27.8,Yes,Confirmed Positive
+W201818794908 ,7/25/2018,48427,16,32.42,No,Confirmed Positive
+W201318735336,8/6/2018,48098,16,30.54,No,Confirmed Positive
+W201318843546,8/11/2018,48146,1,9.36,Yes,Confirmed Positive
+W201318717999,8/15/2018,48070,1,35.68,Yes,Confirmed Positive
+W201318728827,8/21/2018,48128,1,24.37,Yes,Confirmed Positive
+W120618541671,8/21/2018,49101,6,null,No,Confirmed Positive
+W201318847417,8/24/2018,48124,1,21.81,Yes,Confirmed Positive
+W201318740093,8/28/2018,48092,1,4.02,Yes,False Positive
+W120618054815,9/4/2018,49506,1,null,Yes,Confirmed Positive
+W201318739492,9/10/2018,48316,1,24.27,Yes,Confirmed Positive
+W120618103052,9/11/2018,49268,1,null,Yes,Confirmed Positive
+W201318732928,9/15/2018,48152,1,27.72,Yes,Confirmed Positive
+W201318743404,9/18/2018,48160,1,30.12,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W201318742426,9/20/2018,48154,1,1.02,Yes,False Positive
+W205018312361,9/27/2018,49270,1,27.7,Yes,Confirmed Positive
+W120618139191,10/31/2018,49337,6,null,Yes,False Positive
+W121019002322,5/31/2019,49837,1,39.31,No,False Positive
+W201319867227,8/23/2019,48221,16,31.73,No,Confirmed Positive
+W201319869389,8/29/2019,48009,16,32.47,No,Confirmed Positive
+W120619041722,9/1/2019,49546,6,null,No,Confirmed Positive
+W120619032112,9/5/2019,49428,6,null,No,Confirmed Positive
+W201819129931,9/10/2019,48416,16,32.18,No,Confirmed Positive
+,,,,,,
+W201717125530,7/5/2017,56167,16,27.08,No,Confirmed Positive
+W201717108290,7/10/2017,55919,1,33.25,Yes,Confirmed Positive
+W201717108949,7/10/2017,56360,1,33.09,Yes,Confirmed Positive
+W201717113230,7/11/2017,55025,1,30.96,Yes,Confirmed Positive
+W201717122653,7/13/2017,55974,1,31.58,Yes,Confirmed Positive
+W201717127100,7/20/2017,55076,1,1.2,Yes,False Positive
+W201717118936,7/26/2017,55320,1,35.2,Yes,Confirmed Positive
+W201717138190,8/1/2017,56292,1,31.06,Yes,Confirmed Positive
+W042517049702,8/2/2017,56470,1,31.41,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W201717135738,8/5/2017,55421,1,1.16,Yes,False Positive
+W201717154542,8/14/2017,56083,1,31.58,Yes,Confirmed Positive
+W201717147024,8/14/2017,55412,1,34.19,Yes,False Positive
+W201717148146,8/21/2017,55325,1,33.62,Yes,Confirmed Positive
+W201717145856,8/29/2017,56027,1,3.25,Yes,Confirmed Positive
+W201717131961 ,9/1/2017,56303,1,3.66,Yes,False Positive
+W201718371477,7/17/2018,56283,16,30.49,No,Confirmed Positive
+W201718376353,7/19/2018,56208,1,33.12,Yes,Confirmed Positive
+W201718375736,7/19/2018,56152,1,23.21,Yes,Confirmed Positive
+W035318029781,7/25/2018,55903,1,38.1,No,Confirmed Positive
+W201718334397,7/26/2018,55333,1,31.19,Yes,Confirmed Positive
+W201718389659,7/30/2018,55113,16,28.56,No,Confirmed Positive
+W201718392639,8/2/2018,56256,1,28.62,Yes,Confirmed Positive
+W201718386347,8/6/2018,56227,1,30.64,Yes,Confirmed Positive
+W201718386457 ,8/8/2018,56284,1,27.76,Yes,Confirmed Positive
+W201718386430,8/8/2018,56284,1,27.86,Yes,Confirmed Positive
+W201718384767,8/8/2018,55423,1,1.13,Yes,False Positive
+W201718384756 ,8/8/2018,55435,1,1.32,Yes,False Positive
+W201718379774,8/8/2018,55309,1,1.7,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W201718378463,8/8/2018,55016,1,1.65,Yes,False Positive
+W201718392753,8/9/2018,55342,1,31.52,Yes,Confirmed Positive
+W201718383294,8/10/2018,55075,1,34.91,Yes,Confirmed Positive
+W201718386856,8/15/2018,56201,1,14.57,Yes,Confirmed Positive
+W201718403040,8/20/2018,55325,1,1.28,Yes,False Positive
+W201718409029,8/23/2018,55056,1,30.87,Yes,Confirmed Positive
+W201718383477,8/23/2018,55109,1,28.87,Yes,Confirmed Positive
+W201718344304,8/28/2018,55448,1,34.2,Yes,Confirmed Positive
+W051518076821,8/31/2018,55428,1,42.5,Yes,Confirmed Positive
+W201718412846,9/1/2018,55057,1,1.16,Yes,False Positive
+W051518073752,9/6/2018,55303,1,39.5,Yes,Confirmed Positive
+W201718409855 ,9/13/2018,56003,1,1,Yes,False Positive
+W051518089892,9/19/2018,55427,1,30.2,Yes,Confirmed Positive
+W042518062872,9/19/2018,56751,1,1.18,Yes,Confirmed Positive
+W201718427545,9/21/2018,55410,1,27.14,Yes,Confirmed Positive
+W201718417713,9/24/2018,56156,1,30.19,Yes,Confirmed Positive
+W201718422555,9/24/2018,56267,1,25.32,Yes,Confirmed Positive
+W201718422109,10/1/2018,55118,1,29.61,Yes,Confirmed Positive
+W201718421811,10/4/2018,56224,1,1.82,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W201718429726,10/11/2018,56256,1,1.46,Yes,False Positive
+W042518062465,10/17/2018,56560,1,1.64,Yes,Cannot Conclude - Test Results Pending
+W042518072442,10/31/2018,56735,1,10.84,Yes,Confirmed Positive
+W051519023106,6/3/2019,55750,1,38.83,No,False Positive
+W201719654360,8/16/2019,55352,1,30.62,No,Confirmed Positive
+,,,,,,
+W069117147063,7/17/2017,39702,16,31.22,No,Confirmed Positive
+W069117148310,7/31/2017,39063,16,28.76,No,Confirmed Positive
+ W069117147805,8/7/2017,39056,1,1.2,Yes,False Positive
+W069117145055,8/15/2017,38941,16,34.33,Yes,False Positive
+W041618011569,7/18/2018,39429,16,33.61,No,Confirmed Positive
+W041618019521,8/22/2018,39428,1,1.08,No,False Positive
+W069118137954,9/2/2018,39047,16,31.38,No,Confirmed Positive
+W069118134743,9/12/2018,39110,1,31.2,No,Confirmed Positive
+W069118134662,9/20/2018,39042,1,26.21,Yes,Confirmed Positive
+W069119134024,7/11/2019,39653,16,32.31,No,Confirmed Positive
+,,,,,,
+W045017052792,7/10/2017,64052,6,30.9,No,Confirmed Positive
+W201117441744,7/27/2017,63559,1,15.01,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W201117426437,8/24/2017,63110,16,35.86,No,Confirmed Positive
+W201117491091,9/30/2017,65203,16,29.54,No,Confirmed Positive
+W120517013393,10/14/2017,63021,1,1.41,Yes,Cannot Conclude - No Additional Testing
+W201118713341,8/7/2018,63383,16,26.21,No,Confirmed Positive
+W201118857768,8/10/2018,63130,16,33.57,No,Confirmed Positive
+W201118722020,8/11/2018,63841,16,27.07,No,Confirmed Positive
+W201118709898,8/28/2018,65026,16,31.68,No,Confirmed Positive
+W045018081668,9/13/2018,64437,1,null,Yes,Confirmed Positive
+W045018091901,10/12/2018,64506,6,44.6,No,Confirmed Positive
+W012019101375,4/24/2019,65584,1,1.07,No,False Positive
+W045119125060,5/25/2019,65804,6,36.03,No,False Positive
+,,,,,,
+W202017088274,8/15/2017,59860,16,28.5,No,Confirmed Positive
+W042317034958,8/31/2017,59026,16,27.42,No,Confirmed Positive
+W202017158498,9/11/2017,59501,1,34.1,Yes,Confirmed Positive
+W202018409379,8/3/2018,59104,16,33.01,No,Confirmed Positive
+W042318021102,8/11/2018,59102,16,32.43,No,Confirmed Positive
+W202018445900,8/23/2018,59226,16,35.93,No,Confirmed Positive
+W042318031460,9/8/2018,59044,16,30.6,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W202018481092,9/10/2018,59501,16,33.99,No,Confirmed Positive
+W042319015515,8/15/2019,59105,16,30.83,No,Confirmed Positive
+,,,,,,
+W200917631468,6/27/2017,68467,16,25.33,No,Confirmed Positive
+W200917639571,7/8/2017,68123,1,1.01,Yes,False Positive
+W200917643349,7/10/2017,68920,1,26.46,Yes,Confirmed Positive
+W200917643325,7/10/2017,68971,1,18.9,Yes,Confirmed Positive
+W200917638419,7/11/2017,68701,1,28.95,Yes,Confirmed Positive
+W200917655189,7/13/2017,68649,1,30.97,Yes,Confirmed Positive
+W200917652284,7/18/2017,68767,1,24.95,Yes,False Positive
+W200917642412,7/27/2017,68701,1,30.05,Yes,Confirmed Positive
+W200917664630,7/31/2017,68008,1,13.96,Yes,Confirmed Positive
+W200917662710,8/30/2017,69001,16,36.23,No,Confirmed Positive
+W200917659837,9/7/2017,69212,1,30.36,Yes,Confirmed Positive
+W200917678418,9/13/2017,68642,1,34.19,Yes,Confirmed Positive
+W200917679921,9/14/2017,68116,1,30.73,Yes,Confirmed Positive
+W200917676130,9/19/2017,68730,1,10.3,Yes,Confirmed Positive
+W200917666846,9/19/2017,68862,1,31.08,Yes,Confirmed Positive
+W200917676394,10/2/2017,68932,1,27.15,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W200917889687,10/9/2017,69101,1,24.06,Yes,Confirmed Positive
+W200917693603,10/13/2017,68154,1,4.54,Yes,Confirmed Positive
+W200918048062,7/16/2018,69033,16,31.49,No,Confirmed Positive
+W200918065696,7/28/2018,68132,16,33.04,No,Confirmed Positive
+W200918070716,8/1/2018,68152,1,20.56,Yes,Confirmed Positive
+W087918653352,8/6/2018,68338,1,39.3,Yes,Confirmed Positive
+W200918073713,8/8/2018,68048,1,30.1,Yes,Confirmed Positive
+W200918073717,8/8/2018,68133,1,28.8,Yes,Confirmed Positive
+W200918043353,8/8/2018,68729,16,30.32,No,Confirmed Positive
+W200918832869,8/11/2018,68132,1,32.03,Yes,Confirmed Positive
+W200918059981,8/11/2018,68131,1,28.97,Yes,Confirmed Positive
+W044118119546,8/16/2018,68731,6,null,Yes,Confirmed Positive
+W087918307480,8/16/2018,68033,1,34.1,Yes,Confirmed Positive
+W200918078559,8/17/2018,68633,16,31.27,No,Confirmed Positive
+W200918067347,8/17/2018,68662,16,26.11,No,Confirmed Positive
+W200918068256,8/20/2018,68467,1,33,Yes,Confirmed Positive
+W200918067390,8/20/2018,68933,16,32.43,No,Confirmed Positive
+W087918401696,8/20/2018,68505,1,29,Yes,Confirmed Positive
+W200918068285,8/20/2018,68467,1,31.77,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W200918068258,8/20/2018,68467,1,25.53,Yes,Confirmed Positive
+W200918831343,8/21/2018,69138,16,32.87,No,Confirmed Positive
+W200918076856,8/21/2018,68066,1,33.53,Yes,Confirmed Positive
+W200918076858,8/21/2018,68066,1,35.46,Yes,Confirmed Positive
+W200918068424,8/22/2018,68925,1,34.72,Yes,Confirmed Positive
+W200918071184,8/22/2018,68007,1,35.07,Yes,Confirmed Positive
+W042418014765,8/23/2018,69337,1,26.15,Yes,Confirmed Positive
+W200918078079,8/25/2018,68022,1,35.51,Yes,False Positive
+W200918836875,8/27/2018,68144,1,32.78,Yes,Confirmed Positive
+W200918076979,8/28/2018,68025,1,29.98,Yes,Confirmed Positive
+W200918079029,8/28/2018,68104,1,29.65,Yes,Confirmed Positive
+W200918043694,8/30/2018,68973,1,34.37,Yes,Confirmed Positive
+W200918051845,8/30/2018,68310,1,36.03,Yes,Confirmed Positive
+W200918056395,8/30/2018,69140,1,35.02,Yes,Confirmed Positive
+W200918071896,9/1/2018,68130,1,32.59,Yes,Confirmed Positive
+W200918079924,9/7/2018,68104,1,4.35,Yes,Confirmed Positive
+W200918833670,9/10/2018,68152,1,28.49,Yes,Confirmed Positive
+W200918030623,9/10/2018,69140,1,33.34,Yes,Confirmed Positive
+W200918030654,9/10/2018,69140,1,32.81,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W200918082731,9/12/2018,68124,1,36.12,Yes,Confirmed Positive
+W200918081738,9/17/2018,68410,1,35.35,Yes,Confirmed Positive
+W200918043971,9/20/2018,68956,1,31.29,Yes,Confirmed Positive
+W087918401961,9/25/2018,68526,1,36,Yes,Confirmed Positive
+W200918084983,9/26/2018,68790,1,23.61,Yes,Confirmed Positive
+W200918088514,10/4/2018,68133,1,9.95,Yes,False Positive
+W200919222287,7/31/2019,68361,16,25.15,No,Confirmed Positive
+W200919869619,9/7/2019,68154,16,30.1,No,Confirmed Positive
+W200919256144,9/10/2019,69153,1,33.72,Yes,Confirmed Positive
+W087919604614,10/5/2019,68512,1,null,Yes,False Positive
+W087919803682,11/9/2019,68521,1,34.27,Yes,Confirmed Positive
+,,,,,,
+W041917015711,7/24/2017,89408,16,32.31,No,Confirmed Positive
+W041917018648,7/27/2017,89408,1,34.24,Yes,Confirmed Positive
+W035817080781,7/31/2017,89434,16,27.71,No,Confirmed Positive
+W041917017500,8/5/2017,89419,1,7.81,Yes,Confirmed Positive
+W041917022754,8/7/2017,89521,1,34.73,Yes,Confirmed Positive
+W041917022873,8/8/2017,89523,1,33.51,Yes,Confirmed Positive
+W041917018551,8/8/2017,89429,1,3.37,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W041917017569,8/9/2017,89431,1,25.84,Yes,Confirmed Positive
+W041917017572,8/9/2017,89508,1,1.04,Yes,False Positive
+W041917022938,8/15/2017,89434,1,32.16,Yes,Confirmed Positive
+W041917022213,8/15/2017,89406,1,21.04,Yes,Confirmed Positive
+W041917021471,8/18/2017,89521,1,26.06,Yes,Confirmed Positive
+W041917021459,8/20/2017,89506,1,1.41,Yes,False Positive
+W04191702069400,9/2/2017,89434,1,31.08,Yes,Confirmed Positive
+W041917026708,9/11/2017,89511,1,30.56,Yes,Confirmed Positive
+W041917020748,9/11/2017,89436,1,29.84,Yes,Confirmed Positive
+W041917026423,9/15/2017,89434,1,34.53,Yes,Confirmed Positive
+W041917027486,9/24/2017,89431,1,33.97,Yes,Confirmed Positive
+W041917029190,10/3/2017,89434,1,3.41,Yes,Confirmed Positive
+W041917021393,10/24/2017,89447,1,1.12,Yes,False Positive
+W041918023352,8/8/2018,89403,1,35.1,Yes,Confirmed Positive
+W041918019655,8/18/2018,89703,1,1.17,Yes,False Positive
+7601236,8/21/2018,89029,1,1.52,No,Cannot Conclude - No Additional Testing
+W041918027728,9/19/2018,89701,1,29.43,Yes,Confirmed Positive
+5545068,6/9/2019,89117,1,1.13,No,False Positive
+W202019719138,7/19/2019,89113,16,34.72,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W042219063652,7/20/2019,89129,16,30.7,No,Confirmed Positive
+W042219063686,7/30/2019,89014,1,31.55,Yes,Confirmed Positive
+W042219066580,7/30/2019,89074,1,32.6,Yes,Confirmed Positive
+W042219065598,8/17/2019,89144,16,30.74,No,Confirmed Positive
+W042219020746,8/17/2019,89130,16,30.07,No,Confirmed Positive
+W041919015810,8/26/2019,89502,1,31.96,Yes,Confirmed Positive
+W041919022008,8/29/2019,89406,1,32.85,Yes,Confirmed Positive
+,,,,,,
+GX03653,11/14/2019,3264,1,1.11,No,False Positive
+,,,,,,
+w047018172544,8/20/2018,8822,16,34.95,No,Confirmed Positive
+W202218422611,8/20/2018,7933,1,34.72,Yes,Confirmed Positive
+W065618022694,8/28/2018,7432,1,34.32,No,Confirmed Positive
+W202218376699,9/6/2018,8620,1,26,Yes,Confirmed Positive
+W165418001053,9/11/2018,8844,16,22.51,No,Cannot Conclude - No Additional Testing
+W047018358409,9/13/2018,8837,16,25.98,No,Confirmed Positive
+w047018357210,9/17/2018,8831,1,1.14,Yes,False Positive
+W047018357218,9/17/2018,8831,1,1.06,Yes,False Positive
+W047018225859,9/28/2018,7642,16,33.53,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W202218430491,10/3/2018,7044,1,29.02,Yes,Confirmed Positive
+W065618025797,10/10/2018,7011,1,1.27,Yes,False Positive
+,,,,,,
+W041117062555,8/11/2017,88047,16,29.63,No,Confirmed Positive
+W012717003067,8/18/2017,80310,1,34.86,No,Confirmed Positive
+W041217040509,9/1/2017,87108,16,20.71,No,Confirmed Positive
+W041118046776,7/3/2018,88007,16,33.45,No,Confirmed Positive
+W041218036645,9/4/2018,88201,1,24.01,No,Confirmed Positive
+W041219040202,8/3/2019,87823,16,30.41,No,Confirmed Positive
+W041219039843,8/6/2019,87031,16,32.18,No,Confirmed Positive
+W041219043856,9/12/2019,87144,16,31.66,No,Confirmed Positive
+,,,,,,
+4408701,2/13/2017,11778,1,1.09,No,False Positive
+W200117379988,7/29/2017,14482,1,25.01,No,Confirmed Positive
+W200117398988,7/31/2017,13304,1,1.24,Yes,False Positive
+W200117417615,8/11/2017,13030,1,6.25,Yes,False Positive
+W047017231233,8/15/2017,11580,16,31.71,No,Confirmed Positive
+W264817004062,8/23/2017,11210,16,33.87,No,Confirmed Positive
+W062917001197,8/28/2017,11001,16,31.9,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W200117440083,9/1/2017,13691,16,33.38,No,Confirmed Positive
+W200117444627,9/13/2017,14544,16,33.57,No,Confirmed Positive
+W200117442677,9/20/2017,14034,1,28.62,Yes,Confirmed Positive
+W200117413598,9/20/2017,11577,1,1.17,Yes,False Positive
+W200117442709,9/26/2017,14094,1,32.96,Yes,Confirmed Positive
+3210625,9/29/2017,11581,1,1.04,Yes,False Positive
+W200117899770,10/7/2017,14559,1,33.24,Yes,Confirmed Positive
+W200117452711,10/12/2017,13662,1,1.03,Yes,False Positive
+W200117452810,10/17/2017,13114,1,1.57,Yes,False Positive
+W200117899868,10/17/2017,14467,1,1.18,Yes,False Positive
+W047018229869,7/22/2018,11377,16,31.93,No,Confirmed Positive
+W047018227942,8/8/2018,11203,16,32.17,No,Confirmed Positive
+W280318701004,8/10/2018,14221,1,30.1,Yes,Confirmed Positive
+W200118721319,8/18/2018,12601,16,30.45,No,Confirmed Positive
+W047018329660,8/24/2018,11004,16,32.89,No,Confirmed Positive
+W047018327939,8/24/2018,11558,16,35.11,No,Confirmed Positive
+W047018332746,8/31/2018,12443,16,35.66,No,Confirmed Positive
+W047018358823,9/10/2018,11743,16,32.01,No,Confirmed Positive
+W047018323022,9/17/2018,11767,1,1.21,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W047018352699,9/17/2018,11790,1,1.21,Yes,False Positive
+w047018325009,9/17/2018,11946,1,1.06,Yes,False Positive
+W047018362014,9/17/2018,11961,1,1.02,Yes,False Positive
+w047018357623,9/17/2018,11746,1,1.48,Yes,False Positive
+W047018324008,9/17/2018,11772,1,1.4,Yes,False Positive
+w047018365840,9/21/2018,11934,1,1.07,Yes,False Positive
+W123118000828,9/26/2018,11764,1,32.48,Yes,False Positive
+W012018106540,12/9/2018,10541,1,1.08,No,False Positive
+W047019525665,9/3/2019,11238,16,33.76,No,Cannot Conclude - No Additional Testing
+W200119191797,9/25/2019,12118,16,32.84,No,Confirmed Positive
+,,,,,,
+W012917500350,5/16/2017,28307,1,1.28,No,Cannot Conclude - No Additional Testing
+W012917500373,5/16/2017,28307,1,1.03,No,Cannot Conclude - No Additional Testing
+W202917636053,9/1/2017,27889,16,34.64,No,Confirmed Positive
+W201217399885,10/20/2017,28104,16,33.11,No,Confirmed Positive
+W201217422797,10/27/2017,28079,1,1.09,Yes,False Positive
+W201217422770,10/27/2017,28104,1,1.83,Yes,False Positive
+W201217422741,10/27/2017,28110,1,1.01,Yes,False Positive
+W201718388097,8/6/2018,27983,1,33.59,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W201218651403,8/28/2018,28043,16,36.65,No,Confirmed Positive
+W201218702233,9/17/2018,27408,16,36.73,No,Confirmed Positive
+W201218712803,9/17/2018,27025,1,1.06,Yes,False Positive
+W201218730840,10/4/2018,27295,1,1.04,Yes,False Positive
+W115118229137,10/27/2018,27302,1,1.16,Yes,False Positive
+W202918038899,11/29/2018,27803,16,36.88,No,Confirmed Positive
+W158218230891,12/7/2018,27344,1,27.09,No,False Positive
+W012919500867,3/20/2019,28310,1,1.09,No,Cannot Conclude - Result Unresolved
+W061119002692,12/27/2019,27516,1,1.05,No,False Positive
+,,,,,,
+W042517044489,7/26/2017,58401,16,33.48,No,Confirmed Positive
+W042517044060,7/31/2017,58045,1,33.52,Yes,Confirmed Positive
+W042517044691,8/8/2017,58801,16,33.14,No,Confirmed Positive
+W042517053958,8/15/2017,58102,1,28.62,Yes,Confirmed Positive
+W042517042068,8/30/2017,58601,16,22.77,No,Confirmed Positive
+W042517048860,9/6/2017,58501,1,6.97,Yes,Confirmed Positive
+W042517048886,9/7/2017,58503,1,31.59,Yes,Confirmed Positive
+W042518044156,7/10/2018,58060,16,30.7,No,Confirmed Positive
+W042518034320,7/12/2018,58504,16,35.33,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W042518048208,7/16/2018,58503,1,35.42,Yes,Confirmed Positive
+W042518048238,7/23/2018,58504,1,33.38,Yes,Confirmed Positive
+W042518032750,7/23/2018,58503,1,34.59,Yes,Confirmed Positive
+W042518050494,7/24/2018,58103,1,32.69,Yes,Confirmed Positive
+W042518046640,7/26/2018,58554,1,32.47,Yes,Confirmed Positive
+W042518043789,7/26/2018,58703,16,34,No,Confirmed Positive
+W042518046038,8/2/2018,58439,1,27.74,Yes,Confirmed Positive
+W042518043394,8/4/2018,58703,1,32.16,Yes,Confirmed Positive
+W042518048706,8/7/2018,58103,1,1.32,Yes,Confirmed Positive
+W042518046775,8/8/2018,58601,1,23.61,Yes,Confirmed Positive
+W042518048783,8/10/2018,58078,1,10.79,Yes,Confirmed Positive
+W042518046156,8/10/2018,58433,1,31.21,Yes,Confirmed Positive
+W042518055671,8/13/2018,58103,16,32.71,Yes,Confirmed Positive
+W042518035524,8/13/2018,58504,1,13.74,Yes,Confirmed Positive
+W042518047377,8/14/2018,58504,1,14.98,Yes,Confirmed Positive
+W042518045378,8/14/2018,58104,1,30.03,Yes,Confirmed Positive
+W042518035597,8/15/2018,58782,1,12.37,Yes,Confirmed Positive
+W042518052807,8/16/2018,58759,1,34.99,Yes,Confirmed Positive
+W042518052362,8/21/2018,58701,1,33.75,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W042518052356,8/21/2018,58701,1,5.91,Yes,Confirmed Positive
+W042518052219,8/22/2018,58301,1,30.91,Yes,Confirmed Positive
+W042518056091,8/22/2018,58504,1,30,Yes,Confirmed Positive
+W042518052889,8/23/2018,58301,1,32.51,Yes,Confirmed Positive
+W042518052308,8/24/2018,58330,1,31.06,Yes,Confirmed Positive
+W042518053003,8/24/2018,58722,1,5.3,Yes,Confirmed Positive
+W042518053021,8/27/2018,58701,1,12.64,Yes,Confirmed Positive
+W042518056433,8/28/2018,58501,1,5.51,Yes,Confirmed Positive
+W042518052952,8/28/2018,58341,1,29.08,Yes,Confirmed Positive
+W042518048139,8/29/2018,58579,1,34.44,Yes,Confirmed Positive
+W042518047663,8/29/2018,58529,1,30.99,Yes,Confirmed Positive
+W042518053062,8/30/2018,58703,1,1.22,Yes,Confirmed Positive
+W042518053073,8/30/2018,58701,1,33.56,Yes,Confirmed Positive
+W042518056593,9/6/2018,58503,1,21.86,Yes,Confirmed Positive
+W042518060913,9/14/2018,58259,1,25.76,Yes,Confirmed Positive
+W042518062103,9/26/2018,58225,1,23.13,Yes,Confirmed Positive
+W200918083187,10/4/2018,58106,1,4.36,Yes,Confirmed Positive
+W042518069869,10/18/2018,58401,1,2.45,No,False Positive
+W042518069879,10/18/2018,58401,1,2.04,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W042518069860,10/18/2018,58401,1,1.88,Yes,False Positive
+,,,,,,
+W043817006225,5/31/2017,44028,16,32.48,No,Confirmed Positive
+W04381720675922,7/22/2017,44654,16,33.59,No,Confirmed Positive
+W204217591348,8/10/2017,44275,1,28.22,Yes,Confirmed Positive
+W201617585509,8/21/2017,43204,1,1.31,Yes,False Positive
+W201617584065,8/22/2017,43147,16,34.96,No,Confirmed Positive
+W037717051265,8/24/2017,45236,6,null,No,Confirmed Positive
+W201617587539,8/25/2017,43228,1,28.72,Yes,Confirmed Positive
+W043817208296,8/26/2017,44707,16,29.33,Yes,Confirmed Positive
+W203817542289,9/2/2017,45822,1,1.51,Yes,False Positive
+W201618718923,7/9/2018,43016,16,38.72,No,Confirmed Positive
+W201618728259,7/11/2018,43123,1,1.06,Yes,False Positive
+W204218755177,8/8/2018,44142,16,31.24,No,Confirmed Positive
+W043818205982,8/14/2018,44615,16,27.49,No,Confirmed Positive
+W204218755669,8/20/2018,44432,1,27.41,Yes,Confirmed Positive
+W204218760124,8/23/2018,44880,1,21.72,Yes,Confirmed Positive
+W204218753802,8/27/2018,44606,1,2.85,Yes,Confirmed Positive
+W205018846199,8/30/2018,43545,1,30.51,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W204218764654,8/31/2018,44313,1,32.52,Yes,Confirmed Positive
+W205018310771,9/3/2018,43612,1,19.23,Yes,Confirmed Positive
+W035418039073,9/6/2018,45380,6,null,No,Cannot Conclude - No Additional Testing
+W205018310908,9/10/2018,43351,1,24.67,Yes,Confirmed Positive
+W204218767161,9/14/2018,44805,1,26.95,Yes,Confirmed Positive
+W201618757737,9/18/2018,43201,16,30.15,No,Confirmed Positive
+W205018309577,9/19/2018,45840,1,35.83,Yes,Confirmed Positive
+W043818207413,9/19/2018,43804,1,26.47,Yes,Confirmed Positive
+W043818009408,9/29/2018,44090,1,1.1,Yes,Cannot Conclude - No Additional Testing
+W201618762461,10/12/2018,43021,16,28.55,No,Confirmed Positive
+W043818207739,10/21/2018,44070,1,32.07,Yes,Confirmed Positive
+W201618767350,10/23/2018,43105,1,1.12,Yes,False Positive
+,,,,,,
+W204917274468,7/30/2017,74136,1,31.52,No,Confirmed Positive
+W091017290422,8/18/2017,74403,16,32.81,No,Confirmed Positive
+W204917287859,8/22/2017,74959,1,1.04,Yes,False Positive
+W091017289550,8/23/2017,74075,1,24.89,Yes,False Positive
+W204917289145,8/28/2017,74137,1,28.04,Yes,Confirmed Positive
+W091017296667,8/29/2017,73446,16,31.91,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W091017294284,9/1/2017,73701,1,19.95,Yes,False Positive
+W091017300070,9/7/2017,73003,1,1.09,Yes,False Positive
+W091017307902,9/22/2017,74075,16,25.23,No,Confirmed Positive
+W091017330059,9/28/2017,74426,1,1.16,Yes,False Positive
+W204918355920,8/11/2018,74105,16,21.83,No,Confirmed Positive
+W204918359170,8/24/2018,74137,1,3.35,Yes,False Positive
+W204918359200,8/24/2018,74135,1,35.44,Yes,False Positive
+BW091018289389,8/30/2018,73159,16,32.09,No,Confirmed Positive
+BW091018296067,8/31/2018,73170,1,1.11,Yes,False Positive
+BW091018314704,8/31/2018,73703,1,1.01,Yes,False Positive
+BW091018299034,9/4/2018,73601,1,24.09,Yes,Confirmed Positive
+BW091018300178,9/12/2018,73099,1,30.01,Yes,Confirmed Positive
+BW091018306188,9/13/2018,73401,1,1.01,Yes,False Positive
+BW091018325296,9/19/2018,74437,1,1.07,Yes,False Positive
+,,,,,,
+C05551714240700F,7/7/2017,K1T 0A3,6,null,No,Confirmed Positive
+C05561732631000M,7/8/2017,L7B 0G1,6,null,No,Confirmed Positive
+C05561734328500D,8/25/2017,L0E 1N0,6,null,No,Confirmed Positive
+C05551714908400K,8/25/2017,K1N 8G4,6,null,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+C05551715005400X,8/30/2017,K0H 2W0,6,null,No,Confirmed Positive
+C055551843804700H,7/25/2018,K2G 1B2,6,null,No,Confirmed Positive
+C055618424713009,7/27/2018,M1N 2Y5,6,null,No,Confirmed Positive
+C05561843266700Q,8/1/2018,N9C 1A8,6,null,No,Confirmed Positive
+C05561842092000M,8/16/2018,L7P 3H3,6,null,No,Confirmed Positive
+C05561844237200O,8/21/2018,M5R 2B5,1,null,Yes,Confirmed Positive
+C055618455127007,8/21/2018,L5N 3W1,1,null,Yes,Confirmed Positive
+C055618428317006,8/22/2018,N6K 2B5,6,null,No,Confirmed Positive
+C05561841575100D,8/27/2018,P0M 2N1,6,null,No,Confirmed Positive
+C05561845118500E,8/28/2018,P4N 4W6,6,null,No,Confirmed Positive
+C05561843740400T,8/28/2018,L0R 1B6,1,null,Yes,Confirmed Positive
+C05561843765700O,9/5/2018,L2N 2R9,6,null,No,Confirmed Positive
+C055618472098006,9/6/2018,N6H 5B8,6,null,No,Confirmed Positive
+C055618460761003,9/12/2018,L0R 1P0,1,null,Yes,Confirmed Positive
+C05561843799900H,9/13/2018,L2N 1E8,1,null,Yes,Confirmed Positive
+C05561846836000K,9/14/2018,N0G 1L0,6,null,No,Confirmed Positive
+C05561847771000T,9/20/2018,N0P 2H0,6,null,No,Confirmed Positive
+C05561847873600U,9/24/2018,N0L 1G0,6,null,No,Confirmed Positive
+C05561847873800Q,9/24/2018,N0L 1G0,6,null,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+C05551844992900C,9/25/2018,K2C 1Y7,6,null,No,Confirmed Positive
+C05551845125600A,9/28/2018,K1J 8B9,1,null,Yes,Confirmed Positive
+C055518450730006,10/2/2018,K7K 2A8,6,null,No,Confirmed Positive
+C055619378728003,7/9/2019,M6G 1B3,6,null,No,Confirmed Positive
+,,,,,,
+W202117111428,7/20/2017,97601,1,1.07,Yes,False Positive
+W202117208588,9/7/2017,97005,1,1.04,Yes,False Positive
+W202119701114,7/29/2019,97370,1,1.49,No,False Positive
+W202119688844,8/25/2019,97056,1,1.62,Yes,False Positive
+W217319003310,12/5/2019,97006,1,19.93,No,False Positive
+,,,,,,
+4423011,3/3/2017,18302,1,1.13,No,False Positive
+W202217150690,8/8/2017,19061,16,32.06,No,Confirmed Positive
+w050917043304,8/23/2017,18069,1,34.33,No,Confirmed Positive
+W203017264483,9/13/2017,17026,16,30.9,No,Confirmed Positive
+W203017268142,10/5/2017,17815,1,1.52,Yes,False Positive
+LS2402769,7/19/2018,19602,6,null,No,Confirmed Positive
+W202218374307,7/31/2018,19067,16,24.56,No,Confirmed Positive
+W203018315342,8/1/2018,19606,16,33.71,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W205318105633,8/2/2018,17403,1,35.69,Yes,Confirmed Positive
+W202218410143,8/8/2018,19130,1,34.41,Yes,Confirmed Positive
+W202218372500,8/15/2018,18966,1,33.85,Yes,Confirmed Positive
+LS 24 03384,8/17/2018,19602,6,28.3,No,Confirmed Positive
+W202218413138,8/20/2018,19362,1,32.21,Yes,Confirmed Positive
+W202218379900,8/20/2018,19422,1,36.87,Yes,Confirmed Positive
+W050918031899,8/20/2018,19540,1,35.04,No,Confirmed Positive
+W202718666295,8/23/2018,16695,16,36.97,No,Confirmed Positive
+W270118532976,8/27/2018,17036,1,null,Yes,Confirmed Positive
+W050918048031,8/28/2018,19526,16,31.92,No,Confirmed Positive
+W139518004123,8/30/2018,17331,1,null,Yes,Cannot Conclude - Result Unresolved
+W050918047525,8/30/2018,18034,16,34.19,No,Confirmed Positive
+W202218423125,8/31/2018,18902,1,34.21,Yes,Confirmed Positive
+W050918048145,9/3/2018,19547,1,32.03,Yes,Confirmed Positive
+W270118530703,9/4/2018,17536,1,null,Yes,Cannot Conclude - Test Results Pending
+W202718667412,9/4/2018,15958,1,36.17,Yes,Confirmed Positive
+W202218421234,9/4/2018,19355,1,32.29,Yes,Confirmed Positive
+W202218428630,9/4/2018,19444,1,33.81,Yes,Confirmed Positive
+W092618606299,9/5/2018,17555,1,null,Yes,Cannot Conclude - Result Unresolved
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W202218435102,9/10/2018,19067,1,34.42,Yes,Confirmed Positive
+W202218428749,9/13/2018,19390,1,32.47,Yes,Confirmed Positive
+W270118537347,9/16/2018,17038,1,null,Yes,False Positive
+W202718670338,9/19/2018,15522,1,19.6,Yes,Confirmed Positive
+W050918051286,9/19/2018,19541,1,7.82,Yes,False Positive
+W202218441549,9/22/2018,19468,1,32.57,Yes,Confirmed Positive
+W050918051516,9/22/2018,18062,1,34.01,Yes,Confirmed Positive
+W050918048647,9/24/2018,19446,1,30.65,Yes,Confirmed Positive
+W202218444011,9/24/2018,19006,1,1.29,Yes,False Positive
+W050918055035,10/1/2018,18951,1,35.27,Yes,Confirmed Positive
+W050918055051,10/1/2018,18951,1,25.07,Yes,Confirmed Positive
+W202218428484,10/3/2018,18951,1,19.12,Yes,Confirmed Positive
+W200118742245,10/11/2018,16323,16,33.49,No,Confirmed Positive
+W202218442717,10/12/2018,19465,1,30.97,Yes,Confirmed Positive
+W202218443779,10/12/2018,19341,1,1.03,Yes,False Positive
+W050918052197,10/13/2018,18951,1,11.67,Yes,Confirmed Positive
+W202218460542,10/24/2018,19330,1,1.18,Yes,False Positive
+W084418002039,11/2/2018,15690,1,1.22,Yes,False Positive
+W084318002012,11/8/2018,15217,1,1.08,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W087518036652,11/8/2018,16066,1,1.06,Yes,False Positive
+W425619000136,3/5/2019,16045,1,27.1,No,False Positive
+ W270119519168,6/3/2019,17540,6,null,No,False Positive
+W270119520039,6/6/2019,17602,6,null,No,False Positive
+W270119519879,6/8/2019,17522,6,null,No,False Positive
+W020019600369-5,6/10/2019,18032,1,null,No,False Positive
+W020019600348-G,6/10/2019,17042,1,null,No,False Positive
+W270119521039,6/10/2019,17603,6,null,No,False Positive
+W270119521032,6/10/2019,17601,6,null,No,False Positive
+W020019600346-J,6/11/2019,17033,1,null,No,False Positive
+W270119521058,6/11/2019,17340,1,null,Yes,False Positive
+W270119521055,6/11/2019,17325,1,null,Yes,False Positive
+,,,,,,
+W423017006331,7/21/2017,962,16,1.01,No,Confirmed Positive
+W423019017529,3/8/2019,969,1,12.09,No,Confirmed Positive
+W423019017852,3/20/2019,979,1,1.1,No,Confirmed Positive
+,,,,,,
+C00031720634100C,8/15/2017,H7M 4P9,16,23.53,No,Confirmed Positive
+C00031837944100L,8/7/2018,J3G 6S2,16,31.28,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+C00041841592700R,8/14/2018,G0A 3G0,16,31.07,Yes,Confirmed Positive
+C00031837348800D,8/17/2018,J3G 6H2,1,35.76,Yes,Confirmed Positive
+C00031838701500K,8/20/2018,J2Y 1C9,1,32.53,Yes,Confirmed Positive
+C000318391034004,8/21/2018,H1G 6B1,1,32.31,Yes,Confirmed Positive
+C00031838456200E,8/29/2018,J4J 3L3,1,33.07,Yes,Cannot Conclude - Test Results Pending
+C00031839238700C,8/29/2018,J7P 2V2,1,10.93,Yes,Cannot Conclude - Test Results Pending
+C00031838253100N,9/4/2018,J7G 1L3,1,20.49,Yes,Cannot Conclude - Test Results Pending
+C00031839267900P,9/6/2018,H9A 2R4,1,25.17,Yes,Cannot Conclude - Test Results Pending
+C00031838832100L,9/7/2018,J7K 0C3,1,34.38,Yes,Cannot Conclude - Test Results Pending
+C00031838819800W,9/7/2018,J7A 2Y2,1,34.91,Yes,Confirmed Positive
+C00031839168000I,9/12/2018,H2J 3J7,1,26.36,Yes,Confirmed Positive
+C00031843242100K,9/21/2018,H7R 1N1,1,27.69,Yes,Cannot Conclude - Test Results Pending
+C00031838648500D,9/24/2018,J0L 1M0,1,29.28,Yes,Confirmed Positive
+,,,,,,
+C00031837858200B,8/16/2018,H1W 3K3,1,28.34,Yes,Confirmed Positive
+C000318370794004,8/22/2018,H4B 1P5,1,31.01,Yes,Confirmed Positive
+C00031838449800Z,8/29/2018,J2W 2T4,1,1.39,Yes,Cannot Conclude - Test Results Pending
+C00031839181100S,9/1/2018,H1W 1V4,6,29.14,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W051717625104,9/14/2017,2914,16,32.2,No,Confirmed Positive
+,,,,,,
+C05301750311600O,9/5/2017,S6H 0K7,6,null,No,Confirmed Positive
+C053018730555007,8/13/2018,S0K 4W0,6,null,No,Confirmed Positive
+C053018731838006,8/16/2018,S4S 1S9,1,null,Yes,Confirmed Positive
+C053018731792002,8/16/2018,S4N 6W2,1,null,Yes,Confirmed Positive
+C05301873190800A,8/17/2018,S4N 2H9,1,null,Yes,Confirmed Positive
+Co5301873561000J,8/21/2018,S4H 0S9,6,null,No,Confirmed Positive
+C05301873130100Z,9/1/2018,S0K 1Z0,6,null,No,Confirmed Positive
+,,,,,,
+W201217256661,7/19/2017,29730,16,26.99,No,Confirmed Positive
+W398517042913,8/30/2017,29732,16,28.44,No,Confirmed Positive
+W121617194555,10/8/2017,29621,6,40.2,No,Cannot Conclude - Result Unresolved
+W200317083708,11/3/2017,29936,1,33.98,Yes,Confirmed Positive
+W121617109084,12/12/2017,29302,6,null,No,Cannot Conclude - Result Unresolved
+W121618915820,8/12/2018,29649,6,null,No,Confirmed Positive
+w121618194876,8/18/2018,29625,1,38.2,No,Confirmed Positive
+W121618200098,8/24/2018,29351,6,33.47,No,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W042517046281,8/2/2017,57481,16,31.68,No,Confirmed Positive
+W042517046415,8/3/2017,57401,1,29.2,No,Cannot Conclude - Result Unresolved
+W116117005798,9/6/2017,57021,1,null,Yes,Confirmed Positive
+9851799,5/24/2018,57555,1,24.2,No,Cannot Conclude - No Additional Testing
+W042518039256,6/26/2018,57442,16,21.3,No,Confirmed Positive
+W042518036403,7/9/2018,57362,16,26.37,No,Confirmed Positive
+W042518041903,7/10/2018,57438,1,33.55,Yes,Confirmed Positive
+W089218004186,7/11/2018,57110,1,40.7,No,Confirmed Positive
+W042518042035,7/16/2018,57469,1,37.59,Yes,Confirmed Positive
+W042518042065,7/16/2018,57476,1,1,Yes,Confirmed Positive
+W042418011880,7/17/2018,57732,1,30.35,Yes,Confirmed Positive
+W116118005004,7/17/2018,57107,1,29.1,Yes,Confirmed Positive
+W042418012649,7/20/2018,57701,1,34.56,Yes,Confirmed Positive
+W042518037234,7/23/2018,57580,1,32.45,Yes,Confirmed Positive
+W042518045985,7/31/2018,57451,1,31.63,Yes,Confirmed Positive
+W042518046237,8/3/2018,57401,1,33.47,Yes,Confirmed Positive
+W201718374849,8/7/2018,57106,1,31.77,Yes,Confirmed Positive
+W042518037643,8/7/2018,57501,1,14.35,Yes,Confirmed Positive
+W042418013791,8/9/2018,57701,1,32.16,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W201718382670,8/15/2018,57103,1,32.54,Yes,Confirmed Positive
+W042518046365,8/20/2018,57401,1,34.47,Yes,Confirmed Positive
+W042518050944,8/20/2018,57428,1,28.91,Yes,Confirmed Positive
+W042518037514,8/29/2018,57441,1,31.43,Yes,Confirmed Positive
+W042518037521,8/30/2018,57319,1,27.6,Yes,Confirmed Positive
+W042518037540,8/30/2018,57301,1,1.72,Yes,False Positive
+,,,,,,
+W431818401425,7/25/2018,38105,1,1.07,No,False Positive
+W431818517090,9/18/2018,38128,16,35.93,No,Confirmed Positive
+W431819534074,9/19/2019,38104,16,34.52,No,Confirmed Positive
+W227719019706,10/2/2019,38117,1,30.95,Yes,Confirmed Positive
+,,,,,,
+W020917001744,5/24/2017,76137,1,1.18,No,False Positive
+W044617310999,6/29/2017,77388,6,null,No,Confirmed Positive
+W035217146792,7/31/2017,75287,16,29.91,No,Confirmed Positive
+W036817641603,8/1/2017,77008,16,29.31,No,Confirmed Positive
+W204917279528,8/4/2017,75230,1,24.84,Yes,Confirmed Positive
+W041517019715,8/10/2017,79241,16,31.85,No,Confirmed Positive
+3214256,8/16/2017,77084,1,1.1,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W035217173948,8/17/2017,75019,16,28.07,No,Confirmed Positive
+W041117066111,8/30/2017,79849,16,33.25,No,Confirmed Positive
+W200217423482,9/7/2017,77380,1,26.93,Yes,Confirmed Positive
+W041117069349,9/7/2017,79912,16,27.56,No,Confirmed Positive
+W041117070721,9/17/2017,79913,16,1.02,No,False Positive
+W044617339140,9/21/2017,77033,1,null,Yes,Cannot Conclude - Result Unresolved
+W035217202959,9/22/2017,75650,16,28.1,No,Confirmed Positive
+W036517583284,10/3/2017,75692,16,31.57,No,Confirmed Positive
+W041517031875,10/14/2017,79762,16,33.13,No,Confirmed Positive
+W140917002732,10/17/2017,78228,1,null,No,Confirmed Positive
+W140917101149,10/18/2017,78218,1,null,No,Confirmed Positive
+W226117018929,11/2/2017,77511,1,4.77,No,Cannot Conclude - Result Unresolved
+W041517036315,12/3/2017,79424,16,1.07,No,Cannot Conclude - Result Unresolved
+3230602,6/18/2018,78501,1,32.05,No,Confirmed Positive
+W044618334021,7/9/2018,77377,6,null,No,Cannot Conclude - No Additional Testing
+W044618334061 ,7/12/2018,77377,1,null,Yes,Cannot Conclude - No Additional Testing
+W044618334125 ,7/16/2018,77070,1,null,Yes,Cannot Conclude - No Additional Testing
+W044618302302,7/17/2018,77008,1,null,Yes,Cannot Conclude - No Additional Testing
+W044618313314,7/18/2018,77354,1,null,Yes,Cannot Conclude - No Additional Testing
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W044618311344 ,7/25/2018,77437,1,null,Yes,Cannot Conclude - No Additional Testing
+W044618322650,7/30/2018,77006,1,null,Yes,Cannot Conclude - No Additional Testing
+W044618308726,8/8/2018,77385,1,null,Yes,Cannot Conclude - No Additional Testing
+W221618653077,8/8/2018,78746,1,25.72,No,Confirmed Positive
+W044618321418,8/22/2018,77379,1,null,Yes,Cannot Conclude - No Additional Testing
+W041118056617,8/22/2018,79936,1,34.21,No,Confirmed Positive
+W044618321853,8/26/2018,77090,1,null,Yes,Cannot Conclude - No Additional Testing
+W226118014315,8/30/2018,77338,1,null,No,Cannot Conclude - Result Unresolved
+W044618347024,8/31/2018,77043,1,null,Yes,Cannot Conclude - No Additional Testing
+BW091018291998,9/3/2018,79119,1,30.84,Yes,Confirmed Positive
+BW091018313181,9/3/2018,79108,1,31.2,Yes,Confirmed Positive
+W044618331676,9/5/2018,77056,1,null,Yes,Cannot Conclude - No Additional Testing
+W041118031374,9/6/2018,78501,1,33.72,Yes,Confirmed Positive
+BW091018313326,9/12/2018,79372,1,30.22,Yes,Confirmed Positive
+W044618353725 ,9/19/2018,77389,1,null,Yes,Cannot Conclude - No Additional Testing
+BW091018312799,9/19/2018,79015,1,1.13,Yes,False Positive
+BW091018310973,9/20/2018,77093,16,30.28,Yes,Confirmed Positive
+W044618333984,9/23/2018,77065,1,null,Yes,Cannot Conclude - No Additional Testing
+W044618353381 ,10/9/2018,77375,6,null,No,Cannot Conclude - No Additional Testing
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W041518025020,10/22/2018,79707,16,null,No,Cannot Conclude - Test Results Pending
+W041118087246,11/28/2018,78501,16,25.46,No,Confirmed Positive
+W226119003489,3/12/2019,77377,1,1.19,No,Cannot Conclude - Result Unresolved
+W226119011086,6/14/2019,77429,1,1.53,No,Cannot Conclude - Result Unresolved
+W226119011785,7/14/2019,77584,1,1.02,No,Cannot Conclude - No Additional Testing
+W041119032901,7/14/2019,79907,16,29.83,No,Confirmed Positive
+W041119037816,8/1/2019,79912,16,29.91,No,Confirmed Positive
+W041119039959,8/6/2019,79936,1,27.99,Yes,Confirmed Positive
+W041119063472,8/28/2019,79936,16,30.74,No,Confirmed Positive
+W226119019131,10/31/2019,77040,1,1.11,No,Cannot Conclude - No Additional Testing
+,,,,,,
+W202017143550,8/1/2017,84604,1,33.48,No,Confirmed Positive
+W158017502884,8/4/2017,84084,16,31.54,No,Confirmed Positive
+W158017701989,8/8/2017,84094,1,30.92,Yes,Confirmed Positive
+W202017145405,8/14/2017,84094,1,32.05,Yes,Confirmed Positive
+W202017874056,8/19/2017,84036,1,1.15,Yes,False Positive
+W202017874090,8/22/2017,84093,1,32.69,Yes,Confirmed Positive
+W202017143346,8/29/2017,84651,1,18.47,Yes,Confirmed Positive
+W201117471208,8/29/2017,84337,1,33.33,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W202017146430007,8/29/2017,84120,1,28.36,Yes,Confirmed Positive
+W202017172560,8/30/2017,84095,1,28.79,Yes,Confirmed Positive
+W158017303132,8/31/2017,84094,1,24.75,Yes,Confirmed Positive
+W158017201964,9/15/2017,84015,1,18.37,Yes,Cannot Conclude - Result Unresolved
+W202017175261,9/16/2017,84128,1,2.1,Yes,False Positive
+W158017503614,9/19/2017,84171,1,20.31,Yes,Confirmed Positive
+W202017177022,9/20/2017,84097,1,11.47,Yes,False Positive
+W202017177983,10/5/2017,84332,1,1.21,Yes,False Positive
+W202017205539,10/7/2017,84116,1,28.53,Yes,Confirmed Positive
+W202017177430,10/12/2017,84075,1,1.15,Yes,False Positive
+W202018472684,7/31/2018,84021,16,33.94,No,Confirmed Positive
+W202018475487,8/31/2018,84321,16,29.25,No,Confirmed Positive
+W202019738858,8/3/2019,84404,1,31.86,No,Confirmed Positive
+W158019502996,8/23/2019,84009,1,30.61,Yes,Confirmed Positive
+W202019762708,8/28/2019,84404,1,35.64,Yes,Confirmed Positive
+W158019202187,9/18/2019,84015,1,30.54,Yes,Confirmed Positive
+W202019765309,9/18/2019,84403,6,34.9,No,Confirmed Positive
+W202019764444 ,9/24/2019,84302,1,10.71,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W203417657644,8/24/2017,5404,16,31.96,No,Confirmed Positive
+090E 10188 ,4/10/2018,5446,1,2.31,No,Cannot Conclude - Result Unresolved
+,,,,,,
+W205317756575,8/23/2017,22204,16,33.11,No,Confirmed Positive
+W087617092687,8/28/2017,22815,16,33.09,No,Confirmed Positive
+W087617601196,9/6/2017,23188,1,1.22,No,False Positive
+W087617045337,9/11/2017,24012,1,1.11,Yes,Cannot Conclude - Result Unresolved
+W087617022884,9/21/2017,22701,1,1.1,Yes,False Positive
+W087617532312,10/5/2017,23226,1,1,Yes,False Positive
+W087617552466,10/23/2017,23885,16,34.76,No,Confirmed Positive
+BDN00278553,7/17/2018,22079,1,null,No,Confirmed Positive
+W205318108297,8/15/2018,22310,1,29.54,Yes,Confirmed Positive
+W203518298445,8/25/2018,24538,16,27.38,No,Confirmed Positive
+W087618922805,8/29/2018,24153,1,35.79,Yes,Confirmed Positive
+W202718658875,9/6/2018,22601,16,24.58,No,Confirmed Positive
+W202718658874,9/6/2018,22601,16,23.92,No,False Positive
+w089818454272,9/30/2018,20109,16,null,No,Confirmed Positive
+W202918804677,10/14/2018,23502,16,16.83,No,Confirmed Positive
+W202918804739 ,10/21/2018,23606,1,21.01,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W020019101922-W,5/30/2019,22030,1,null,No,False Positive
+W020019600282-J,6/4/2019,22026,1,null,No,False Positive
+W020019101948-C,6/4/2019,22556,1,null,No,False Positive
+W020019690053-G,6/11/2019,22554,1,null,No,False Positive
+W020019690138,8/2/2019,22314,1,null,No,Cannot Conclude - No Additional Testing
+,,,,,,
+W224317103111,7/7/2017,98375,1,34.05,Yes,Confirmed Positive
+W202117164726,7/19/2017,99323,1,1.08,Yes,False Positive
+W202117171731,7/20/2017,98665,1,1.16,Yes,False Positive
+W068517035005,9/5/2017,99203,1,33.27,No,Confirmed Positive
+W068517037474,9/29/2017,99217,16,28.79,No,Confirmed Positive
+W010018005339,7/23/2018,98274,1,null,No,False Positive
+W202118406228,8/13/2018,98596,16,32.98,No,Confirmed Positive
+W202118385633,9/11/2018,98926,16,31.66,No,Confirmed Positive
+W202118450265,10/31/2018,98603,1,2.45,Yes,False Positive
+ W202119656464,8/29/2019,99338,16,34.89,No,Confirmed Positive
+W202119697368,9/7/2019,98938,16,34.41,No,Confirmed Positive
+W202119685862,9/19/2019,99352,1,30.77,Yes,Confirmed Positive
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W202717525220,7/13/2017,26847,1,33.26,No,Confirmed Positive
+W202718673655,9/6/2018,25071,16,20.1,No,False Positive
+,,,,,,
+W203217593424,7/24/2017,54603,16,32.63,No,Confirmed Positive
+W203217659980,7/27/2017,53038,1,37.16,Yes,Confirmed Positive
+W036317223585-M,7/29/2017,53209,16,1.12,Yes,False Positive
+W203217686883,8/1/2017,54519,1,34.19,Yes,Confirmed Positive
+W203217658395,8/3/2017,53589,1,29.09,Yes,Confirmed Positive
+W203217868573,8/6/2017,54229,1,30.62,Yes,False Positive
+W036317117354-A,8/15/2017,53185,16,24.42,Yes,False Positive
+W03631750027-6,8/28/2017,53210,16,null,Yes,False Positive
+W203217698563,8/31/2017,53520,1,1.14,Yes,False Positive
+W053317802501,9/5/2017,54915,6,null,No,Cannot Conclude - Result Unresolved
+W036317409253-D,9/6/2017,53158,16,null,Yes,False Positive
+W036317405860-V,9/11/2017,53126,16,32.44,Yes,Confirmed Positive
+W203217651357,9/11/2017,53190,1,5.62,Yes,Confirmed Positive
+W203217704669,9/14/2017,53036,1,33.68,Yes,Confirmed Positive
+W036317132712-E,9/19/2017,53103,16,25.59,Yes,False Positive
+W203217704801,9/20/2017,53147,1,1.07,Yes,False Positive
+,,,,,,
+,,,,,,
+,,,,,,
+Donation Tracking Number,Collection Date,Zip Code,Pool Size,S/CO,Triggered,Final Interpretation
+,,,,,,
+W036317614152,9/30/2017,53219,1,34.37,Yes,Confirmed Positive
+W036317315894-6,10/13/2017,53020,16,1.12,Yes,False Positive
+W036317235651-7,10/25/2017,53183,16,1,Yes,False Positive
+W0363 18 504405-C,6/4/2018,53208,16,1.08,No,Cannot Conclude - No Additional Testing
+W036318506315-L,7/21/2018,53051,16,34.5,No,Confirmed Positive
+W203218816053,7/29/2018,53536,16,33.11,No,Confirmed Positive
+W036318002065-2,8/1/2018,54247,16,35.56,No,Confirmed Positive
+W201718379271,8/8/2018,54893,1,28.2,Yes,Confirmed Positive
+W201718391380,8/20/2018,54011,1,1.13,Yes,False Positive
+W036318228007-U,8/28/2018,53208,16,33.53,No,Confirmed Positive
+W203218080025,9/14/2018,53214,1,11.96,Yes,False Positive
+W036318224593-Q,9/15/2018,53212,1,32.2,Yes,False Positive
+W203218070727,9/26/2018,53821,1,33.74,Yes,False Positive
+W201718406805,9/26/2018,54025,1,1.06,Yes,False Positive
+W203218819080,10/5/2018,53562,1,6.1,Yes,Confirmed Positive
+W036319228515-A,9/19/2019,53205,16,32.98,No,Confirmed Positive
+,,,,,,
+W042317033487,7/31/2017,82801,16,28.67,No,Confirmed Positive
+W042417013985,8/23/2017,82718,16,32.64,No,Confirmed Positive

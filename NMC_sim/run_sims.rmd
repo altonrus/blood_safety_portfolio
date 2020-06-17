@@ -1,0 +1,291 @@
+---
+title: "run_sims"
+author: "W Alton Russell"
+date: "5/7/2020"
+output: html_document
+---
+
+```{r setup, include=TRUE}
+library(reticulate)
+library(googlesheets4)
+library(data.table)
+
+# Load python environment
+reticulate::use_condaenv(condaenv = "optimal_portfolio", conda = "auto", required = TRUE)
+source("nmc_r_functions.R")
+```
+
+## WNV 
+
+```{r WNV_setup, eval=TRUE}
+source_python('WNV_sim.py')
+param_table_WNV <- read_sheet("1Yjfq0SINstVPrszWYx9uJEYcqChxvGM1RIoR8uZe-sw", sheet = "wnv_nmc")
+
+params <- param_table_WNV$Basecase
+#names(params) = param_table_WNV$Index
+params <- split(params, param_table_WNV$key)
+
+indices <- split(param_table_WNV$Index, param_table_WNV$key)
+indices <- indices[!is.na(indices)]
+
+```
+
+## Basecase
+Goal is to find the number of recipients simulated needed to generate an estimate of net monitary cost with <1% variance on average
+
+200,000 recipients
+```{r WNV_basecase_2e5_pysim, eval=FALSE}
+runModelWNV(2L, #number of iterations 
+         200000L, #number of repititions
+         params, 
+         indices, 
+         'output/WNV_basecase_2e5_pysim3.csv')
+
+WNV_basecase_2e5_output <- nmc_from_sim_output(fread('output/WNV_basecase_2e5_pysim2.csv'), params)
+fwrite(WNV_basecase_2e5_output, "output/WNV_basecase_2e5_output2.csv")
+
+```
+
+
+```{r WNV_basecase_2e5_output, eval=FALSE}
+WNV_basecase_2e5_output <- fread('output/WNV_basecase_2e5_pysim2.csv')
+print(WNV_basecase_2e5_output[, c("cost_per_donation", "QALYL_per_donation", "NMC_per_donation")])
+
+range(WNV_basecase_2e5_output$NMC_per_donation)
+(max(WNV_basecase_2e5_output$NMC_per_donation) - min(WNV_basecase_2e5_output$NMC_per_donation))/min(WNV_basecase_2e5_output$NMC_per_donation)
+
+```
+
+
+2,000,000 recipients
+```{r WNV_basecase_2e6_pysim, eval=FALSE}
+runModelWNV(2L, #number of iterations 
+         2000000L, #number of repititions
+         params, 
+         indices, 
+         'output/WNV_basecase_2e6_pysim.csv')
+
+WNV_basecase_2e6_output <- nmc_from_sim_output(fread('output/WNV_basecase_2e6_pysim.csv'), params)
+fwrite(WNV_basecase_2e6_output, "WNV_basecase_2e6_output.csv")
+```
+
+
+```{r WNV_basecase_2e6_output, eval = FALSE}
+WNV_basecase_2e6_output <- fread("WNV_basecase_2e6_output.csv")
+print(WNV_basecase_2e6_output[, c("cost_per_donation", "QALYL_per_donation", "NMC_per_donation")])
+
+range(WNV_basecase_2e6_output$NMC_per_donation)
+(max(WNV_basecase_2e6_output$NMC_per_donation) - min(WNV_basecase_2e6_output$NMC_per_donation))/min(WNV_basecase_2e6_output$NMC_per_donation)
+
+```
+
+
+10,000,000 recipients
+```{r WNV_basecase_1e7_pysim, eval=FALSE}
+runModelWNV(3L, #number of iterations 
+         10000000L, #number of repititions
+         params, 
+         indices, 
+         'output/WNV_basecase_1e7_pysim.csv')
+
+WNV_basecase_1e7_output <- nmc_from_sim_output(fread('output/WNV_basecase_1e7_pysim.csv'), params)
+fwrite(WNV_basecase_1e7_output, "output/WNV_basecase_1e7_output.csv")
+
+```
+
+
+```{r WNV_basecase_1e7_output}
+WNV_basecase_1e7_output <- fread("output/WNV_basecase_1e7_output.csv")
+
+print(WNV_basecase_1e7_output[, c("cost_per_donation", "QALYL_per_donation", "NMC_per_donation")])
+
+range(WNV_basecase_1e7_output$NMC_per_donation)
+(max(WNV_basecase_1e7_output$NMC_per_donation) - min(WNV_basecase_1e7_output$NMC_per_donation))/min(WNV_basecase_1e7_output$NMC_per_donation)
+
+```
+
+
+## PSA
+```{r, eval = FALSE}
+n_PSA = 10000
+
+
+inputs <- gen_PSA_inputs(param_table_WNV, n_PSA)
+fwrite(inputs, "output/WNV_PSA_inputs.csv")
+```
+
+```{r, eval=FALSE}
+n_iter = 2L
+n_rep = 2e6L
+
+# ZIKV PSA - Generate outputs
+psa_params_WNV <- fread("output/WNV_PSA_inputs.csv")
+
+
+
+for (col in 3:ncol(psa_params_WNV)){
+  params <- unlist(psa_params_WNV[ , ..col])
+  params <- split(params, psa_params_WNV$key)
+  
+  indices <- split(psa_params_WNV$Index, psa_params_WNV$key)
+  indices <- indices[!is.na(indices)]
+  
+  iter_result = runModelWNV(n_iter, #number of iterations 
+               n_rep, #number of repititions
+               params, 
+               indices,
+               to_file = 0)
+  
+  if (col == 3){
+    output = cbind(iter_result, 'PSA set' = paste0('PSA_set', 1))
+  } else {
+    output = rbind(output,
+                   cbind(iter_result, 'PSA set' = col - 2))
+  }
+}
+
+fwrite(nmc_from_sim_output(output , params), "output/PSA_WNV.csv")
+
+```
+
+
+
+# ZIKV 
+
+
+```{r ZIKV_setup, eval=FALSE}
+source_python('ZIKV_sim.py')
+param_table_ZIKV <- read_sheet("1Yjfq0SINstVPrszWYx9uJEYcqChxvGM1RIoR8uZe-sw", sheet = "zikv_nmc")
+
+params <- param_table_ZIKV$Basecase
+#names(params) = param_table_ZIKV$Index
+params <- split(params, param_table_ZIKV$key)
+
+indices <- split(param_table_ZIKV$Index, param_table_ZIKV$key)
+indices <- indices[!is.na(indices)]
+
+```
+
+## Basecase
+To find the number of recipients simulated needed to generate an estimate of net monitary cost with <1% variance on average
+
+200,000 recipients
+```{r ZIKV_basecase_2e5_pysim, eval=FALSE}
+Sys.time()
+runModelZIKV(2L, #number of iterations 
+         200000L, #number of repititions
+         params, 
+         indices, 
+         'output/ZIKV_basecase_2e5_pysim.csv')
+Sys.time()
+
+ZIKV_basecase_2e5_output <- nmc_from_sim_output(fread('output/ZIKV_basecase_2e5_pysim.csv'), params)
+fwrite(ZIKV_basecase_2e5_output, "output/ZIKV_basecase_2e5_output.csv")
+```
+
+
+```{r ZIKV_basecase_2e5_output, eval=TRUE}
+ZIKV_basecase_2e5_output <- fread("output/ZIKV_basecase_2e5_output.csv")
+
+print(ZIKV_basecase_2e5_output[, c("cost_per_donation", "QALYL_per_donation", "NMC_per_donation")])
+
+range(ZIKV_basecase_2e5_output$NMC_per_donation)
+(max(ZIKV_basecase_2e5_output$NMC_per_donation) - min(ZIKV_basecase_2e5_output$NMC_per_donation))/min(ZIKV_basecase_2e5_output$NMC_per_donation)
+
+```
+
+
+2,000,000 recipients
+```{r ZIKV_basecase_2e6_pysim, eval=FALSE}
+Sys.time()
+runModelZIKV(2L, #number of iterations 
+         2000000L, #number of repititions
+         params, 
+         indices, 
+         'output/ZIKV_basecase_2e6_pysim.csv')
+Sys.time()
+
+ZIKV_basecase_2e6_output <- nmc_from_sim_output(fread('output/ZIKV_basecase_2e6_pysim.csv'), params)
+fwrite(ZIKV_basecase_2e6_output, "output/ZIKV_basecase_2e6_output.csv")
+```
+
+```{r ZIKV_basecase_2e6_output, eval=TRUE}
+
+ZIKV_basecase_2e6_output <- fread("output/ZIKV_basecase_2e6_output.csv")
+
+print(ZIKV_basecase_2e6_output[, c("cost_per_donation", "QALYL_per_donation", "NMC_per_donation")])
+
+range(ZIKV_basecase_2e6_output$NMC_per_donation)
+(max(ZIKV_basecase_2e6_output$NMC_per_donation) - min(ZIKV_basecase_2e6_output$NMC_per_donation))/min(ZIKV_basecase_2e6_output$NMC_per_donation)
+
+```
+
+10,000,000 recipients
+```{r ZIKV_basecase_1e7_pysim, eval=FALSE}
+Sys.time()
+runModelZIKV(2L, #number of iterations 
+         1e7L, #number of repititions
+         params, 
+         indices, 
+         'output/ZIKV_basecase_1e7_pysim.csv')
+Sys.time()
+
+ZIKV_basecase_1e7_output <- nmc_from_sim_output(fread('output/ZIKV_basecase_1e7_pysim.csv'), params)
+fwrite(ZIKV_basecase_1e7_output, "output/ZIKV_basecase_1e7_output.csv")
+```
+
+```{r ZIKV_basecase_1e7_output}
+
+ZIKV_basecase_1e7_output <- fread("output/ZIKV_basecase_1e7_output.csv")
+
+
+print(ZIKV_basecase_1e7_output[, c("cost_per_donation", "QALYL_per_donation", "NMC_per_donation")])
+
+range(ZIKV_basecase_1e7_output$NMC_per_donation)
+(max(ZIKV_basecase_1e7_output$NMC_per_donation) - min(ZIKV_basecase_1e7_output$NMC_per_donation))/min(ZIKV_basecase_1e7_output$NMC_per_donation)
+
+```
+
+
+## PSA
+```{r eval = FALSE}
+n_PSA = 10000
+
+
+inputs <- gen_PSA_inputs(param_table_ZIKV, n_PSA)
+fwrite(inputs, "output/ZIKV_PSA_inputs.csv")
+```
+
+```{r, eval = FALSE}
+n_iter = 2L
+n_rep = 2e6L
+
+# ZIKV PSA - Generate outputs
+psa_params_ZIKV <- fread("output/ZIKV_PSA_inputs.csv")
+
+
+
+for (col in 3:ncol(psa_params_ZIKV)){
+  params <- unlist(psa_params_ZIKV[ , ..col])
+  params <- split(params, psa_params_ZIKV$key)
+  
+  indices <- split(psa_params_ZIKV$Index, psa_params_ZIKV$key)
+  indices <- indices[!is.na(indices)]
+  
+  iter_result = runModelZIKV(2L, #number of iterations 
+               n_rep, #number of repititions
+               params, 
+               indices,
+               to_file = 0)
+  
+  if (col == 3){
+    output = cbind(iter_result, 'PSA set' = paste0('PSA_set', 1))
+  } else {
+    output = rbind(output,
+                   cbind(iter_result, 'PSA set' = col - 2))
+  }
+}
+
+fwrite(nmc_from_sim_output(output , params), "output/PSA_ZIKV_2.csv")
+
+```
