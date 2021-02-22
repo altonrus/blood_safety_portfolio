@@ -1,28 +1,6 @@
-# library(Rcpp)
-# library(RcppArmadillo)
-# setwd("G:/My Drive/Blood Transfusion/Optimal portfolio/blood portfolio r project")
-# sourceCpp("cost_portfolio.cpp")
-
-# #OBJECTIVE FUNCTION Aman -----------------
-# # This function does not give the same results. Need to correct before implementing
-# cost_portfolio_aman <- function(z_i, M_ni, A_ji, c_k, P_ik, d_i, w_i, n_i, c_test_j, R_jk, Q_jk, g, c_mod_n, H_nk) {
-#   B1 <- mat_prod_prod(A_ji, R_jk)
-#   B2 <- mat_prod_prod(M_ni, H_nk - 1)
-#   vec_pos_test <- get_vec_pos_test(P_ik, A_ji, R_jk, Q_jk)
-# 
-#   c_mod_n_by_M_ni <- t(crossprod(c_mod_n, M_ni))
-#   right <-   
-#     w_i + 
-#     c_mod_n_by_M_ni + 
-#     t(crossprod(c_test_j, A_ji)) + 
-#     c_mod_n_by_M_ni + 
-#     (B1 * B2 * P_ik) %*% c_k + 
-#     (g * vec_pos_test)
-#   c(crossprod((1-z_i) * n_i, d_i) + crossprod(z_i * n_i, right))
-# }
-
-#OBJECTIVE FUNCTION unoptimized-----------------
-cost_portfolio_unopt <- function(z_i, M_li, A_ji, c_k, P_ik, d_i, w_i, n_i, c_test_j, R_jk, Q_jk, g, c_mod_l, H_lk, full_output = 0) {
+cost_portfolio_main <- function(z_i, M_li, A_ji, c_k, P_ik, d_i, w_i, n_i, c_test_j, R_jk, Q_jk, g, c_mod_l, H_lk, 
+                                full_output = 0 #If set to 1, returns 5 other metrics along with objective cost value
+                                ) {
   K = length(c_k) #number of TTIDs
   I = length(z_i) #number of donor segments, but performing analysis separately for each jurisdiction to take advantage of linear separability
   J = length(R_jk[,1]) #tests
@@ -57,8 +35,10 @@ cost_portfolio_unopt <- function(z_i, M_li, A_ji, c_k, P_ik, d_i, w_i, n_i, c_te
     v2[i] = 1 - all_neg
   }
   if (full_output == 0) {
-    return(drop(t((1-z_i)*n_i) %*% d_i + t(z_i * n_i) %*% (w_i + t(t(c_mod_l) %*% M_li) + t(t(c_test_j) %*% A_ji) + t(t(c_mod_l) %*% M_li) + (1-v2) %*% (B1*B2*P_ik)%*%c_k + ((g+d_i)*v2))))
+    return(drop(t((1-z_i)*n_i) %*% d_i + t(z_i * n_i) %*% (w_i + t(t(c_mod_l) %*% M_li) + t(t(c_test_j) %*% A_ji) + t(t(c_mod_l) %*% M_li) + 
+                                                             (1-v2) * (B1*B2*P_ik) %*% c_k + ((g+d_i)*v2))))
   } else {
+    colnames(z_i) <- NULL
     accepted_donors_by_seg = z_i * n_i # I X 1 vector
     RR_matrix = (B1*B2*P_ik) # I X K matrix
 
@@ -72,18 +52,46 @@ cost_portfolio_unopt <- function(z_i, M_li, A_ji, c_k, P_ik, d_i, w_i, n_i, c_te
     obj_cost = defer_cost + drop(t(accepted_donors_by_seg) %*% (w_i + t(t(c_mod_l) %*% M_li) + t(t(c_test_j) %*% A_ji) + (1-v2) * ((B1*B2*P_ik)%*%c_k) + (g+d_i)*v2))
     downstream_net_mon_cost =  drop(t(accepted_donors_by_seg) %*% (B1*B2*P_ik)%*%c_k)
     
-    return(c(obj_cost, yield, test_cost, mod_cost, downstream_net_mon_cost, avg_resid_risk))
+    return(c("obj_cost" = obj_cost, 
+             "yield" = yield, 
+             "test_cost" = test_cost, 
+             "mod_cost" = mod_cost, 
+             "downstream_net_mon_cost" = downstream_net_mon_cost, 
+             "avg_resid_risk" = avg_resid_risk))
   }
 }
 
 
+cost_portfolio_linearP <- function(z_i, M_li, A_ji, c_k, P_ik, d_i, w_i, n_i, c_test_j, R_jk, Q_jk, c_mod_l, H_lk) {
+  K = length(c_k) #number of TTIDs
+  I = length(z_i) #number of donor segments, but performing analysis separately for each jurisdiction to take advantage of linear separability
+  J = length(R_jk[,1]) #tests
+  L = length(c_mod_l) #Mods
+  
+  
+  B1 <- matrix(1L, I, K) #Will vectorize
+  for (i in 1:I){
+    for (k in 1:K){
+      for (j in 1:J){
+        B1[i,k] = B1[i,k]*(1-R_jk[j,k]*A_ji[j,i])
+      }
+    }
+  }
+  B2 <- matrix(1L, I, K) #Will vectorize
+  for (i in 1:I){
+    for (k in 1:K){
+      for (l in 1:L){
+        B2[i,k] = B2[i,k]*(1-M_li[l,i]*(1-H_lk[l,k]))
+      }
+    }
+  }
+
+  return(drop(t((1-z_i)*n_i) %*% d_i + t(z_i * n_i) %*% (w_i + t(t(c_mod_l) %*% M_li) + t(t(c_test_j) %*% A_ji) + t(t(c_mod_l) %*% M_li) + (B1*B2*P_ik)%*%c_k)))
+
+}
 
 
-
-
-
-#
-portfolio_nodeferral <- function(M_ni, A_ji, c_k, P_ik, d_i, w_i, n_i, c_test_j, R_jk, Q_jk, g, c_mod_n, H_nk) {
+cost_portfolio_nodeferral <- function(M_li, A_ji, c_k, P_ik, d_i, w_i, n_i, c_test_j, R_jk, Q_jk, g, c_mod_l, H_lk) {
   B1 <- matrix(1L, I, K) #Will vectorize
   for (i in 1:I){
     for (k in 1:K){
@@ -96,7 +104,7 @@ portfolio_nodeferral <- function(M_ni, A_ji, c_k, P_ik, d_i, w_i, n_i, c_test_j,
   for (i in 1:I){
     for (k in 1:K){
       for (n in 1:N){
-        B2[i,k] = B2[i,k]*(1-M_ni[n,i]*(1-H_nk[n,k]))
+        B2[i,k] = B2[i,k]*(1-M_li[n,i]*(1-H_lk[n,k]))
       }
     }
   }
@@ -111,14 +119,10 @@ portfolio_nodeferral <- function(M_ni, A_ji, c_k, P_ik, d_i, w_i, n_i, c_test_j,
     }
     v2[i] = 1 - all_neg
   }
-  return(drop(t( n_i) %*% (w_i + t(t(c_mod_n) %*% M_ni) + t(t(c_test_j) %*% A_ji) + t(t(c_mod_n) %*% M_ni) + (B1*B2*P_ik)%*%c_k + ((g+d_i)*v2))))
+  return(drop(t( n_i) %*% (w_i + t(t(c_mod_l) %*% M_li) + t(t(c_test_j) %*% A_ji) + t(t(c_mod_l) %*% M_li) + (B1*B2*P_ik)%*%c_k + ((g+d_i)*v2))))
 }
 
 
 
 
 
-# library(microbenchmark)
-# microbenchmark(new = cost_portfolio(z_i, M_ni, A_ji, c_k, P_ik, d_i, w_i, n_i, c_test_j, R_jk, Q_jk, g, c_mod_n, H_nk), 
-#                old = cost_portfolio_old(z_i, M_ni, A_ji, c_k, P_ik, d_i, w_i, n_i, c_test_j, R_jk, Q_jk, g, c_mod_n, H_nk),
-#                times = 1000)

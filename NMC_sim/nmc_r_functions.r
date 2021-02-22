@@ -94,6 +94,8 @@ samp_dist <- function(dist, param1, param2, n, mean, low, high){
     return(rpearsonV(n=n, shape=param1, location=1, scale=param2))
   } else if (dist == "Invgauss"){
     return(rinvgauss(n=n, mean=param1, shape=param2))
+  } else if (dist == "Unif" ){
+    return(runif(n=n, min=low, max=high))
   } else return(NA)
 }
 

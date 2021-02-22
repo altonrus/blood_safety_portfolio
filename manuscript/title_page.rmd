@@ -1,0 +1,51 @@
+---
+title: 'Optimal portfolios of blood safety interventions: test, defer or modify?'
+author: 
+csl: american-medical-association-brackets.csl
+output:
+  word_document:
+    reference_docx: word-style-reference-manuscript.docx
+  pdf_document: default
+---
+
+
+
+
+#### W. Alton Russell^1,2^,  Brian Custer^2,3^, Margaret L. Brandeau^1^
+
+
+
+<br> <br>
+
+^1^Department of Management Science and Engineering, Stanford University, Stanford, CA, USA
+
+^2^Vitalant Research Institute, San Francisco, CA, USA
+
+^3^The University of California, San Francisco, San Francisco, CA, USA
+
+<br> <br>
+
+  
+
+**Corresponding author:**   W. Alton Russell, Department of Management Science and Engineering, Stanford University, Stanford, CA, altonr@stanford.edu
+
+
+<br> <br>
+
+**ORCIDs:** WAR, 0000-0003-1780-4470; BC, 0000-0001-6251-366X; MLB, 0000-0001-9331-8920
+
+<br> <br>
+
+**Declarations**
+
+**Ethics approval:** This analysis was based entirely on public data and was exempt from institutional ethics review.
+
+**Funding:** Alton Russell was supported by a dissertation grant from Vitalant Research Institute as well by the Hsieh Family Fellowship, a Stanford Interdisciplinary Graduate Fellowship.
+
+**COI:** Mr. Russell reports personal fees from Terumo BCT outside the submitted work. Dr. Custer reports grants from Grifols Diagnostic Solutions, Terumo BCT, Macopharma, and Cerus and personal fees from Terumo BCT outside the submitted work. Margaret Brandeau has no conflicts to declare.
+
+**Availability of data and material:** The authors will publish a repository containing all data and code prior to publication.
+
+**Contributions:** WAR conceptualized and performed the analysis and drafted the manuscript. BC contributed to the analysis design, provided data, and critically revised the manuscript. MB contributed to the analysis design and critically revised the manuscript.
+
+**Acknowledgements:** The authors thank Dr. Aman Verma for his helpful contributions in brainstorming and programming assistance.

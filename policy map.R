@@ -7,47 +7,16 @@ library(rmapshaper)
 library(maptools)
 library(grid)
 library(gtable)
-# library(rgdal)
-# library(tidyverse)
-# library(geojsonio)
+
 library(RColorBrewer)
 theme_set(theme_minimal())
-# library(cowplot)
-# library(gridExtra)
-# library(rgeos)
-# library(dplyr)
-# library(concaveman)
-# usa_zip5 <- data.table(st_read('data/ZCTA_2010Census_DP1.shp'))
-# dt <- usa_zip5[ , c("ZCTA5CE10", "geometry")]
-# dt[, zip3 := substr(ZCTA5CE10, 1, 3)]
-# 
-# dt_zip3 <- dt[, .(geom = st_union(geometry)),by=zip3]
-# test <- as(as_Spatial(dt_zip3$geom, IDs = dt_zip3$zip3), "SpatialPolygonsDataFrame" )
+
 # writePolyShape(test, fn = "data/dt_zip3.shp")
 
 zip3_shapes <- readShapePoly(fn = "data/dt_zip3.shp")
-# 
-# zip3_shapes_PR <- zip3_shapes[zip3_shapes$SP_ID %in% c("006", "007", "008"),]
-# zip3_shapes_PR <- elide(zip3_shapes_PR, shift = c(-5, 5))
-# 
-# zip3_shapes_AK <- zip3_shapes[zip3_shapes$SP_ID %in% c("995", "996", "997", "998", "999"),]
-# zip3_shapes_AK <- elide(zip3_shapes_PR, shift = c(0, -25))
-# 
-# zip3_shapes_HI <- zip3_shapes[zip3_shapes$SP_ID %in% c("967", "968"),]
-# zip3_shapes_HI <- elide(zip3_shapes_PR, shift = c(5, 25))
-# 
-# zip3_shapes <- zip3_shapes[!(zip3_shapes$SP_ID %in% c("006", "007", "008",
-#                                                       "967", "968",
-#                                                       "995", "996", "997", "998", "999")),]
-# 
-# zip3_shapes <- rbind.SpatialPolygonsDataFrame(zip3_shapes,zip3_shapes_AK, zip3_shapes_HI, zip3_shapes_PR)
-
-
 zip3_sf <- st_as_sf(zip3_shapes)
 
-# Sys.time()
-# zip3_sf <- ms_simplify(zip3_sf)
-# Sys.time()
+
 
 dt_zip3 <- data.table(
   zip3_sf
@@ -56,14 +25,6 @@ dt_zip3 <- data.table(
 setnames(dt_zip3, "SP_ID", "zip3")
 dt_zip3$dummy <- NULL
 
-
-
-# #plot(dt_zip3)
-# zip3_shapeS_simp <- ms_simplify(zip3_shapes, keep_shapes = TRUE)
-
-# zip3_shapes <- left_join(zip3_shapes, psa_percents_zip[year == "2017" & season == "H", c("year", "a1", "a2", "a3", "a4", "zip3", "STUSPS")])
-
-#dt <- data.table(data.frame(zip3 = zip3_shapes$SP_ID))
 
 
 

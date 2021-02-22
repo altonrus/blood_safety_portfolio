@@ -1,13 +1,8 @@
 library(data.table)
+library(readxl)
 
 
-
-
-
-#setwd("G:/My Drive/Blood Transfusion/Optimal portfolio/blood portfolio r project")
-
-library(googlesheets4)
-params <- data.table(read_sheet("1Yjfq0SINstVPrszWYx9uJEYcqChxvGM1RIoR8uZe-sw", sheet = "params"))[, c("key", "row_idx", "col_idx", "Basecase")]
+params <- data.table(read_excel("data/params.xlsx", sheet = "params"))[, c("key", "row_idx", "col_idx", "Basecase")]
 
 # Translate variable sheet into matrices for analysis
 vars = unique(params$key)
@@ -84,7 +79,7 @@ policies[2:n_pols, 2:pol_length] <- as.matrix(expand.grid(replicate(pol_length -
 # 
 # 
 # for (row in 1:nrow(groupPolicies)){
-#   groupPolicies[ row, 10:16] =  as.list(cost_portfolio_unopt(z_i = matrix(unlist(groupPolicies[row, "z"])),
+#   groupPolicies[ row, 10:16] =  as.list(cost_portfolio_main(z_i = matrix(unlist(groupPolicies[row, "z"])),
 #                                                              M_li = matrix(unlist(groupPolicies[row, "m1"], I, L)),
 #                                                              A_ji = matrix(unlist(groupPolicies[row, c("a1", "a2", "a3", "a4")], I, J)),
 #                                                              c_k = c_k, 
@@ -140,7 +135,7 @@ policies[2:n_pols, 2:pol_length] <- as.matrix(expand.grid(replicate(pol_length -
 # 
 # 
 # for (row in 1:nrow(groupPolicies)){
-#   groupPolicies[ row, 10:16] =  as.list(cost_portfolio_unopt(z_i = matrix(unlist(groupPolicies[row, "z"])),
+#   groupPolicies[ row, 10:16] =  as.list(cost_portfolio_main(z_i = matrix(unlist(groupPolicies[row, "z"])),
 #                                                              M_li = matrix(unlist(groupPolicies[row, "m1"], I, L)),
 #                                                              A_ji = matrix(unlist(groupPolicies[row, c("a1", "a2", "a3", "a4")], I, J)),
 #                                                              c_k = c_k, 
@@ -195,7 +190,7 @@ policies[2:n_pols, 2:pol_length] <- as.matrix(expand.grid(replicate(pol_length -
 # 
 # 
 # for (row in 1:nrow(groupPolicies)){
-#   groupPolicies[ row, 10:16] =  as.list(cost_portfolio_unopt(z_i = matrix(unlist(groupPolicies[row, "z"])),
+#   groupPolicies[ row, 10:16] =  as.list(cost_portfolio_main(z_i = matrix(unlist(groupPolicies[row, "z"])),
 #                                                              M_li = matrix(unlist(groupPolicies[row, "m1"], I, L)),
 #                                                              A_ji = matrix(unlist(groupPolicies[row, c("a1", "a2", "a3", "a4")], I, J)),
 #                                                              c_k = c_k, 
@@ -221,6 +216,61 @@ policies[2:n_pols, 2:pol_length] <- as.matrix(expand.grid(replicate(pol_length -
 
 
 
+
+##########################################
+WTP = 1e6
+c_k <- matrix(data = c(cost_zikv + QALY_zikv*WTP, cost_wnv + QALY_wnv*WTP),
+              ncol = 1)
+dt.prev <- data.table(expand.grid(exp(seq(log(1e-6), log(0.3), length.out = 100)),
+                                  exp(seq(log(1e-6), log(0.3), length.out = 100))))
+
+colnames(dt.prev) <- c("p_ZIKV", "p_WNV")
+
+
+#Create groupPolicies datatable which has exhaustive list of all policies for each donor group
+groupPolicies <- data.table(
+  p1 = rep(dt.prev$p_ZIKV, each = n_pols),
+  p2 = rep(dt.prev$p_WNV, each = n_pols),
+  n = 1,
+  z = rep(policies[ , 1], times = nrow(dt.prev)),
+  a1 = rep(policies[ , 2], times = nrow(dt.prev)),
+  a2 = rep(policies[ , 3], times = nrow(dt.prev)),
+  a3 = rep(policies[ , 4], times = nrow(dt.prev)),
+  a4 = rep(policies[ , 5], times = nrow(dt.prev)),
+  m1 = rep(policies[ , 6], times = nrow(dt.prev)),
+  obj_cost = 0,
+  yield = 0,
+  test_cost = 0,
+  mod_cost = 0,
+  downsteam_NMC = 0,
+  resid_risk1 = 0,
+  resid_risk2 = 0
+)
+
+
+
+# for (row in 1:nrow(groupPolicies)){
+#   groupPolicies[ row, 10:16] =  as.list(cost_portfolio_linearP(z_i = matrix(unlist(groupPolicies[row, "z"])),
+#                                                              M_li = matrix(unlist(groupPolicies[row, "m1"], I, L)),
+#                                                              A_ji = matrix(unlist(groupPolicies[row, c("a1", "a2", "a3", "a4")], I, J)),
+#                                                              c_k = c_k,
+#                                                              P_ik =  t(matrix(unlist(groupPolicies[row, c("p1", "p2")], I, K))),
+#                                                              d_i = d,
+#                                                              w_i = w,
+#                                                              n_i = matrix(unlist(groupPolicies[row, "n"])),
+#                                                              c_test_j = c_test_j,
+#                                                              R_jk = R_jk,
+#                                                              Q_jk = Q_jk,
+#                                                              g = g,
+#                                                              c_mod_l = c_mod_l,
+#                                                              H_lk = H_lk))
+# }
+# 
+# dt <- groupPolicies[ , .SD[which.min(obj_cost)], by = c("p1", "p2")]
+# 
+# 
+# fwrite(dt, "Results//prev_2way_linearP.csv")
+###############################################
 
 
 
@@ -345,6 +395,28 @@ colors <- c("Defer" = "black",
 WTP.labs <- c("WTP = $1,000,000 per QALY (basecase)", "WTP = $10,000,000 per QALY", "WTP = $100,000 per QALY")
 names(WTP.labs) <- c(1e6, 1e7, 1e5)
 
+
+#BASE CASE ONLY
+ggsave("Results/fig_opt_by_prev_basecase.png",
+       ggplot(data=dt)+
+         geom_tile(aes(x = p1, y = p2, fill = pol_name)) +
+         scale_x_log10(name = "Zika prevalence", 
+                       breaks = c(1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 3e-1),
+                       expand = c(0, 0),
+                       minor_breaks = NULL) + 
+         scale_y_log10(name = "WNV prevalence", 
+                       breaks = c(1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 3e-1),
+                       expand = c(0, 0),
+                       minor_breaks = NULL) + 
+         theme_bw()+
+         theme(#legend.position = "none",
+           panel.grid = element_blank())+
+         scale_fill_manual(values = colors, name = "Policy"),
+       width = 6,
+       height = 4.5,
+       unit = "in")
+
+
 #p_pol_by_WTP <- 
 ggsave("Results/fig_opt_by_prev_WTP_scenarios.png",
        ggplot(data=dt.all)+
@@ -365,10 +437,6 @@ ggsave("Results/fig_opt_by_prev_WTP_scenarios.png",
        width = 5,
        height = 6,
        unit = "in")
-
-
-
-
 
 
 
@@ -530,3 +598,134 @@ ggsave("Results/outcomes_by_prevalence.png",
        units = "in"
 )
 
+
+
+### ANALYSIS OF LINEAR APPROXIMATION
+
+
+
+dt.both <- rbind(cbind(fread("Results//prev_2way_linearP.csv"), version = "Linear approximation"),
+                cbind(fread("Results//prev_2way_wtp1e6.csv"), version = "Full cost function"))
+
+
+
+
+
+dt.both[ , pol_code := paste0(z, a1, a2, a3, a4, m1)]
+
+
+setkey(policies, pol_code)
+setkey(dt.both, pol_code)
+
+dt.both <- dt.both[policies[, c("pol_code", "name")], nomatch = 0]
+
+dt.both[ , pol_name := factor(name,
+                         levels = c(
+                           "Defer", #1
+                           "No intervention", #2
+                           "Zika-MP", #4
+                           "Zika-ID", 
+                           "Zika-ID-MP", #5
+                           "WNV-MP",
+                           "WNV-ID", #6
+                           "WNV-ID-MP", #14
+                           "Zika-MP, WNV-MP", #12
+                           "Zika-MP, WNV-ID", #8
+                           "Zika-MP, WNV-ID-MP", #16
+                           "Zika-ID, WNV-MP", #11
+                           "Zika-ID, WNV-ID", #7
+                           "Zika-ID, WNV-ID-MP", #15
+                           "Zika-ID-MP, WNV-MP", #13
+                           "Zika-ID-MP, WNV-ID", #9
+                           "Zika-ID-MP, WNV-ID-MP"
+                         ))]
+
+
+
+#WTP.labs <- c("WTP = $1,000,000 per QALY (basecase)", "WTP = $10,000,000 per QALY", "WTP = $100,000 per QALY")
+#names(WTP.labs) <- c(1e6, 1e7, 1e5)
+
+
+ggsave("Results/fig_opt_by_prev_linearP.png",
+       ggplot(data=dt.both)+
+         facet_wrap(vars(version), ncol = 1)+
+         geom_tile(aes(x = p1, y = p2, fill = pol_name)) +
+         scale_x_log10(name = "Zika prevalence", 
+                       breaks = c(1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 3e-1),
+                       expand = c(0, 0),
+                       minor_breaks = NULL) + 
+         scale_y_log10(name = "WNV prevalence", 
+                       breaks = c(1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 3e-1),
+                       expand = c(0, 0),
+                       minor_breaks = NULL) + 
+         theme_bw()+
+         theme(#legend.position = "none",
+           panel.grid = element_blank())+
+         scale_fill_manual(values = colors, name = "Policy"),
+       width = 5,
+       height = 6,
+       unit = "in")
+
+
+#ZIP CODE
+dt.zip.both <- rbind(cbind(fread("Results//opt_by_zip3_linearP.csv"), version = "Linear approximation"),
+                 cbind(fread("Results//opt_by_zip3_basecase.csv"), version = "Full cost function"))
+
+dt.zip.both <- dt.zip.both[!(p1 == 0 & p2 == 0)]
+dt.zip.both[ , pol_code := paste0(z, a1, a2, a3, a4, m1)]
+
+
+
+setkey(dt.zip.both, pol_code)
+
+dt.zip.both <- dt.zip.both[policies[, c("pol_code", "name")], nomatch = 0]
+
+dt.zip.both[ , pol_name := factor(name,
+                         levels = c(
+                           "Defer", #1
+                           "No intervention", #2
+                           "Zika-MP", #4
+                           "Zika-ID", 
+                           "Zika-ID-MP", #5
+                           "WNV-MP",
+                           "WNV-ID", #6
+                           "WNV-ID-MP", #14
+                           "Zika-MP, WNV-MP", #12
+                           "Zika-MP, WNV-ID", #8
+                           "Zika-MP, WNV-ID-MP", #16
+                           "Zika-ID, WNV-MP", #11
+                           "Zika-ID, WNV-ID", #7
+                           "Zika-ID, WNV-ID-MP", #15
+                           "Zika-ID-MP, WNV-MP", #13
+                           "Zika-ID-MP, WNV-ID", #9
+                           "Zika-ID-MP, WNV-ID-MP"
+                         ))]
+
+
+
+
+compare <- dcast(dt.zip.both, group ~ version, value.var = "pol_name")
+compare[ , same := `Full cost function` == `Linear approximation`]
+dt.zip.both[ , p1 := ifelse(p1 < 1e-6, 1e-6, p1)]
+dt.zip.both[ , p2 := ifelse(p2 < 1e-6, 1e-6, p2)]
+
+ggsave("Results/fig_opt_by_prev_linearP.png",
+       ggplot(data=dt.both)+
+         facet_wrap(vars(version), ncol = 1)+
+         geom_tile(aes(x = p1, y = p2, fill = pol_name)) +
+         scale_x_log10(name = "Zika prevalence", 
+                       breaks = c(1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 3e-1),
+                       expand = c(0, 0),
+                       minor_breaks = NULL) + 
+         scale_y_log10(name = "WNV prevalence", 
+                       breaks = c(1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 3e-1),
+                       expand = c(0, 0),
+                       minor_breaks = NULL) + 
+         geom_point(data = dt.zip.both, aes(x = p1, y = p2), size = 2, shape = 1) +
+         theme_bw()+
+         theme(#legend.position = "none",
+           panel.grid = element_blank())+
+         scale_fill_manual(values = colors, name = "Policy"),
+       width = 5,
+       height = 6,
+       unit = "in")

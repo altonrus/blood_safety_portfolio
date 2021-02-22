@@ -1,5 +1,5 @@
 library(data.table)
-library(googlesheets4)
+library(readxl)
 
 # setwd("G:/My Drive/Blood Transfusion/Optimal portfolio/blood portfolio r project")
 
@@ -10,7 +10,7 @@ library(googlesheets4)
 ####
 
 # Get parameters from Google shet
-params <- data.table(read_sheet("1Yjfq0SINstVPrszWYx9uJEYcqChxvGM1RIoR8uZe-sw", sheet = "params"))[, c("key", "row_idx", "col_idx", "Basecase")]
+params <- data.table(read_excel("./data/params.xlsx", sheet = "params"))[, c("key", "row_idx", "col_idx", "Basecase")]
 
 #donorGroups<- data.table(read_sheet("1Yjfq0SINstVPrszWYx9uJEYcqChxvGM1RIoR8uZe-sw", sheet = "donor_groups"))
 donorGroups <- fread('data/donor_groups_zip3.csv')
@@ -53,7 +53,7 @@ basecase_pol_compare <- data.table(
 
 I = n_groups/3
 for(yr in unique(donorGroups$year)){
-  val = cost_portfolio_unopt(z_i = matrix(1, I),
+  val = cost_portfolio_main(z_i = matrix(1, I),
                              M_li = matrix(0, L, I),
                              A_ji = matrix(0, J, I),
                              c_k = c_k, 
@@ -71,7 +71,7 @@ for(yr in unique(donorGroups$year)){
   basecase_pol_compare <- rbind(basecase_pol_compare,
                    t(data.table(c(yr, "No intervention", unlist(val)))), use.names = FALSE)
   
-  val = cost_portfolio_unopt(z_i = matrix(1, I),
+  val = cost_portfolio_main(z_i = matrix(1, I),
                              M_li = matrix(0, L, I),
                              A_ji = matrix(c(0,1), J, I),
                              c_k = c_k, 
@@ -139,9 +139,35 @@ groupPolicies <- data.table(
 
 
 #iterate over rows and calculate outcome of each policy
+
+# ## FULL COST FUNCTION
+# Sys.time()
+# for (row in 1:nrow(groupPolicies)){
+#   groupPolicies[ row, 12:18] =  as.list(cost_portfolio_main(z_i = matrix(unlist(groupPolicies[row, "z"])),
+#                                                              M_li = matrix(unlist(groupPolicies[row, "m1"], I, L)),
+#                                                              A_ji = matrix(unlist(groupPolicies[row, c("a1", "a2", "a3", "a4")], I, J)),
+#                                                              c_k = c_k, 
+#                                                              P_ik =  t(matrix(unlist(groupPolicies[row, c("p1", "p2")], I, K))),
+#                                                              d_i = d, 
+#                                                              w_i = w, 
+#                                                              n_i = matrix(unlist(groupPolicies[row, "n"])),
+#                                                              c_test_j = c_test_j, 
+#                                                              R_jk = R_jk, 
+#                                                              Q_jk = Q_jk, 
+#                                                              g = g, 
+#                                                              c_mod_l = c_mod_l, 
+#                                                              H_lk = H_lk, 
+#                                                              full_output = 1))
+# }
+# 
+# Sys.time()
+
+
+## LINEAR APPROXIMATION
+groupPolicies <- groupPolicies[p1 != 0 | p2 != 0]
 Sys.time()
 for (row in 1:nrow(groupPolicies)){
-  groupPolicies[ row, 12:18] =  as.list(cost_portfolio_unopt(z_i = matrix(unlist(groupPolicies[row, "z"])),
+  groupPolicies[ row, 12 := cost_portfolio_linearP(z_i = matrix(unlist(groupPolicies[row, "z"])),
                                                              M_li = matrix(unlist(groupPolicies[row, "m1"], I, L)),
                                                              A_ji = matrix(unlist(groupPolicies[row, c("a1", "a2", "a3", "a4")], I, J)),
                                                              c_k = c_k, 
@@ -154,16 +180,26 @@ for (row in 1:nrow(groupPolicies)){
                                                              Q_jk = Q_jk, 
                                                              g = g, 
                                                              c_mod_l = c_mod_l, 
-                                                             H_lk = H_lk, 
-                                                             full_output = 1))
+                                                             H_lk = H_lk)]
 }
 
 Sys.time()
 
+
+
+
+
 #Get optimal polict by donor group
 opt_by_group <- groupPolicies[ , .SD[which.min(obj_cost)], by = group]
 opt_by_group[ , season := substr(group, 13, 13)]
-fwrite(opt_by_group, "Results/opt_by_zip3_basecase.csv")
+fwrite(opt_by_group, "Results/opt_by_zip3_linearP.csv")
 
 
 opt_by_group[z == 0 | test_cost + mod_cost > 0]
+
+
+
+
+
+
+

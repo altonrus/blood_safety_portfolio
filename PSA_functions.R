@@ -146,7 +146,7 @@ Process_PSA <- function(iter_start, iter_end, params_PSA, ZIKV_psa_nmc, WNV_psa_
     
     # Evaluate each portfolio for each donor group
     for (row in 1:nrow(groupPolicies)){
-      groupPolicies[row, 12:18] =  as.list(cost_portfolio_unopt(z_i = matrix(unlist(groupPolicies[row, "z"])),
+      groupPolicies[row, 12:18] =  as.list(cost_portfolio_main(z_i = matrix(unlist(groupPolicies[row, "z"])),
                                                                  M_li = matrix(unlist(groupPolicies[row, "m1"], I, L)),
                                                                  A_ji = matrix(unlist(groupPolicies[row, c("a1", "a2", "a3", "a4")], I, J)),
                                                                  c_k = c_k, 
@@ -194,11 +194,12 @@ Process_PSA <- function(iter_start, iter_end, params_PSA, ZIKV_psa_nmc, WNV_psa_
 }
 
 
-Process_and_save_PSA <- function(iter_start, iter_end, params_PSA, ZIKV_psa_nmc, WNV_psa_nmc, donorGroup){
+Process_and_save_PSA <- function(iter_start, iter_end, params_PSA, ZIKV_psa_nmc, WNV_psa_nmc, donorGroup,
+                                 fname_prefix = "PSA_zip3_"){
   output <- Process_PSA(iter_start, iter_end, params_PSA, ZIKV_psa_nmc, WNV_psa_nmc, donorGroups)
   
-  fwrite(output[[1]], paste0('PSA_zip3_opt_by_group_', iter_start, 'to', iter_end, '.csv'))
-  fwrite(output[[2]], paste0('PSA_zip3_metrics_', iter_start, 'to', iter_end, '.csv'))
+  fwrite(output[[1]], paste0(fname_prefix, 'opt_by_group_', iter_start, 'to', iter_end, '.csv'))
+  fwrite(output[[2]], paste0(fname_prefix, 'metrics_', iter_start, 'to', iter_end, '.csv'))
   
 }
 
